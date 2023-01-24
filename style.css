@@ -1,0 +1,440 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(25, 25, 25);
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+}
+
+.wfan-logo{
+    margin-top: 15px;
+    width: 50px;
+    margin-left: 15px;
+}
+
+.topnav {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  justify-content: center;
+  transition: 0.40s;
+  z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 2%;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+    transition: 0.40s;
+      border-radius: 30px;
+
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(0, 0, 0);
+  transform: scale(1.1);
+  color: #ffffff;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.scrollmenu{
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+  width: 95%;
+  height: 600px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+        -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+    overflow-y: hidden;
+
+
+}
+
+div.scrollmenu img{
+  width: 100%;
+  scroll-snap-align: start;
+    border-radius: 15px;
+
+}
+
+div.scrollmenu video{
+  width: 100%;
+  scroll-snap-align: start;
+    border-radius: 15px;
+
+}
+
+.welcome-1{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.welcome-2{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -10px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.black{
+  height: 160px;
+  width: 1130px;
+  background-color: #000000;
+  margin: auto;
+  margin-top: -140px;
+}
+
+.bar1{
+    height: 2px;
+    width: 90%;
+    background-color: rgb(245, 199, 44);
+    margin-left: auto;  
+    margin-right: auto;  
+    margin-top: 200px;
+    border-radius: 20px;
+}
+
+.daily-sched{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(25, 25, 25);    
+    width: 360px;
+    margin: auto;
+    margin-top: -35px;
+}
+
+.sched-container{
+    width: 800px;
+    height: 510px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.schedule{
+    width: 800px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.black-background{
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    padding-top: 40px;
+}
+
+.ministries{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    width: 400px;
+    font-weight: 900;
+    font-size: 50px;
+    margin: auto;
+}
+
+.bar2{
+    width: 1100px;
+    height: 2px;
+    background-color: rgb(245, 199, 44);
+    margin: auto;
+    margin-top: 30px;
+        border-radius: 30px;
+
+}
+
+.horizontal-snap {
+  margin: 0 auto;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  max-width: 1055px;
+  margin-top: 50px;
+  border-radius: 10px;
+  overflow-y: hidden;
+  overflow-y: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.horizontal-snap div {
+  scroll-snap-align: start;
+}
+
+.horizontal-snap div {
+  width: 400px;
+  height: 450px;
+  background-color: rgb(25, 25, 25);
+  border-radius: 10px;
+  transition: 0.30s;
+}
+
+.learn-1{
+  color: #000000;
+  text-align: center;
+  padding: 8px 2%;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;   
+  background-color: rgb(255, 214, 10);
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 100px;
+  height: 20px;
+  transition: 0.40s;
+}
+
+.learn-1:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.married-img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+     -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.youth-img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+     -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.praise-img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+     -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.kkm-img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+     -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.married-text1{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  text-align: center;
+    font-size: 30px;
+    margin-top: 7px;
+      color: #ffffff;
+
+
+}
+
+.married-text2{
+  width: 90%;
+  text-align: center;
+  text-decoration: none;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  font-size: 15px;
+  color: #d5d5d5;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+
+}
+
+.youth-text1{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  text-align: center;
+    font-size: 30px;
+    margin-top: 7px;
+  color: #ffffff;
+
+
+}
+
+.youth-text2{
+  width: 90%;
+  text-align: center;
+  text-decoration: none;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  font-size: 15px;
+  color: #d5d5d5;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.praise-text1{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  text-align: center;
+    font-size: 30px;
+    margin-top: 7px;
+  color: #ffffff;
+
+
+}
+
+.praise-text2{
+  width: 90%;
+  text-align: center;
+  text-decoration: none;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  font-size: 15px;
+  color: #d5d5d5;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.kkm-text1{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  text-align: center;
+    font-size: 30px;
+    margin-top: 7px;
+  color: #ffffff;
+
+
+}
+
+.kkm-text2{
+  width: 90%;
+  text-align: center;
+  text-decoration: none;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  font-size: 15px;
+  color: #d5d5d5;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+a:link{
+  text-decoration: none!important;
+  
+}
+
+.bar3{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 150px;
+}
+
+.email{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 30px;
+    width: 1100px;
+    margin-left: 40px;
+}
+
+.email-address{
+      font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: -10px;
+    width: 1100px;
+    margin-left: 40px;
+}
+
+.facebook{
+  width: 60px;
+  height: 60px;
+  background-color: aqua;
+  border-radius: 15px;
+  margin-left: 40px;
+  margin-top: -20px;
+  transition: 0.40s;
+}
+
+.facebook:hover{
+  transform: scale(1.2);
+}
+
+.youtube{
+  width: 60px;
+  height: 60px;
+  background-color: aqua;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-top: -20px;
+  transition: 0.40s;
+}
+
+.youtube:hover{
+  transform: scale(1.2);
+}
