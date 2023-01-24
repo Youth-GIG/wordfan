@@ -501,6 +501,17 @@ a:link{
   display: none;
 }
 
+.parent-2{
+  display: none;
+}
+
+
+
+
+
+
+
+
 
 /*portrait mode*/
 @media  (max-width: 1313px) {
@@ -962,6 +973,10 @@ a:link{
 }
 
 .parent-mobile{
+  display: none;
+}
+
+.parent-2{
   display: none;
 }
 
