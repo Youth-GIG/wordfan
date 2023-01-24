@@ -582,8 +582,8 @@ a:link{
 }
 
 .app-div{
-  width: 750px;
-  height: 370px;
+  width: 800px;
+  height: 420px;
   background-color: white;
   margin: auto;
   padding-top: 10px;
@@ -601,12 +601,12 @@ a:link{
 .container{
   display: flex;
   margin: auto;
-  width: 300px;
+  width: 400px;
 }
 
 .yt-vid{
-  width: 300px;
-  height: 169px;
+  width: 400px;
+  height: 230px;
 }
 
 .td-1{
@@ -673,7 +673,7 @@ a:link{
 }
 
 .schedule-div{
-  width: 750px;
+  width: 800px;
   height: 270px;
   background-color: white;
   margin: auto;
@@ -706,11 +706,11 @@ a:link{
   float: right;
   margin-top: 10px;
   border-radius: 10px;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 .Be-part-of-group-div{
-    width: 750px;
+    width: 800px;
   height: 650px;
   background-color: white;
   margin: auto;
@@ -787,7 +787,7 @@ div.scrollmenu-2 div{
 
 .horizontal-snap div {
   width: 330px;
-  height: 370px;
+  height: 380px;
   background-color: rgb(210, 209, 214);
   border-radius: 20px;
   transition: 0.30s;
