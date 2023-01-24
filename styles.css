@@ -14,9 +14,10 @@ body{
 }
 
 .wfan-logo{
-  width: 120px;
+  width: 150px;
   margin-left: 0px;
   transition: 0.40s;
+  margin-top: 10px;
   z-index: 1;
 }
 
@@ -33,7 +34,6 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  background-color: rgb(255, 255, 255);
   justify-content: center;
   transition: 0.40s;
   z-index: 1;
@@ -505,6 +505,10 @@ a:link{
   display: none;
 }
 
+.spacer{
+  height: 80px;
+}
+
 
 
 
@@ -531,6 +535,7 @@ a:link{
   width: 150px;
   margin-left: 0px;
   transition: 0.40s;
+  margin-top: 15px;
   z-index: 1;
 }
 
@@ -547,8 +552,6 @@ a:link{
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255);
   justify-content: center;
   transition: 0.40s;
   z-index: 1;
@@ -630,9 +633,9 @@ a:link{
 }
 
 .bar-1{
-  width: 90.5%;
+  width: 93.8%;
   background-color: #000000;
-  height: 3px;
+  height: 2px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -692,6 +695,7 @@ a:link{
   font-family: 'Inter', sans-serif;
   font-size: 30px;
   margin-top: 5px;
+  margin-left: 20px;
 }
 
 .p2{
@@ -699,14 +703,17 @@ a:link{
   font-family: 'Atkinson Hyperlegible', sans-serif;
   width: 280px;
   font-size: 13px;
+    margin-left: 20px;
+
 }
 
 .schedule{
-  width: 380px;
+  width: 480px;
+  border-radius: 0%;
   float: right;
-  margin-top: 10px;
-  border-radius: 10px;
-  margin-left: 60px;
+  border-radius: 0px 10px 10px 0px;
+  margin-left: 13px;
+  margin-top: -18px;
 }
 
 .Be-part-of-group-div{
@@ -758,17 +765,19 @@ div.scrollmenu-2 {
         -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
+  
 
 
 }
 
 div.scrollmenu-2 div{
   width: 100%;
-  scroll-snap-align: center;
+  scroll-snap-align: left;
 }
 
 .horizontal-snap {
-  margin: 0 auto;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
   display: grid;
     height: 390px;
 
@@ -781,8 +790,8 @@ div.scrollmenu-2 div{
   scroll-snap-type: x mandatory;
 }
 
-.horizontal-snap > a {
-  scroll-snap-align: start;
+.horizontal-snap a {
+  scroll-snap-align: left;
 }
 
 .horizontal-snap div {
