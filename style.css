@@ -108,11 +108,12 @@ div.scrollmenu video{
 .table-1{
 margin: auto;
 margin-top: 100px;
+width: 86%;
 }
 
 .welcome-img{
   border-radius: 10px;
-  width: 700px;
+  width: 560px;
 }
 
 .spacer{
@@ -123,7 +124,7 @@ margin-top: 100px;
 .welcome-1{
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 50px;
     margin-top: 0px;
 }
@@ -150,6 +151,7 @@ margin-top: 100px;
 
 .daily-sched{
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     color: #ffffff;
     font-size: 50px;
     text-align: center;
@@ -209,7 +211,7 @@ margin-top: 100px;
   display: grid;
   grid-auto-flow: column;
   gap: 1rem;
-  max-width: 60%;
+  max-width: 80%;
   margin-top: 50px;
   border-radius: 10px;
   overflow-y: hidden;
@@ -519,12 +521,12 @@ a:link{
 
 .welcome-img{
   border-radius: 10px;
-  width: 400px;
+  width: 500px;
 }
 
 .spacer{
   height: 50px;
-  width: 20px;
+  width: 40px;
 }
 
 .welcome-1{
@@ -1205,13 +1207,10 @@ div.scrollmenu-mobile video{
 
 .email{
   font-size: 20px;
-  text-align: center;
-  width: auto;
 }
 
 .email-address{
   font-size: 20px;
-  text-align: center;
     width: auto;
 
 }
