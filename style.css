@@ -117,8 +117,8 @@ width: 86%;
 }
 
 .spacer{
-  height: 0px;
-  width: 40px;
+  height: 70px;
+  width: 0px;
 }
 
 .welcome-1{
@@ -135,8 +135,6 @@ width: 86%;
     font-size: 20px;
     margin-top: -10px;
     width: 500px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .bar1{
@@ -524,9 +522,9 @@ a:link{
   width: 500px;
 }
 
-.spacer{
+.spacer-tab{
   height: 50px;
-  width: 40px;
+  width: 10px;
 }
 
 .welcome-1{
@@ -543,8 +541,6 @@ a:link{
     font-size: 13px;
     margin-top: -10px;
     width: 350px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .bar1{
@@ -850,7 +846,7 @@ margin-top: 0px;
 
   .topnav-mobile {
   display: flex;
-  width: 90%;
+  width: 330px;
   height: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -984,7 +980,7 @@ div.scrollmenu-mobile video{
 
 .sched-container{
   width: 100%;
-  height:250px;
+  height:100%;
 }
 
 .schedule{
@@ -1206,20 +1202,40 @@ div.scrollmenu-mobile video{
 }
 
 .email{
-  font-size: 20px;
+      font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .email-address{
-  font-size: 20px;
-    width: auto;
+      font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 }
+
 
 .facebook{
   margin-top: 0px;
+  margin-left: 0px;
 }
 .youtube{
   margin-top: 0px;
+}
+
+.social-table{
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
 
 }
