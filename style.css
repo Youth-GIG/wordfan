@@ -566,21 +566,17 @@ a:link{
 }
 
 .sched-container{
-    width: 690px;
+    width: 100%;
     height: auto;
     margin: auto;
     margin-top: 20px;
 }
 
 .schedule{
-    width: 690px;
+    width: 100%;
     margin: auto;
     border-radius: 10px;
     transition: 0.40s;
-}
-
-.schedule:hover{
-  transform: scale(1.1);
 }
 
 .blackbackground-tablet{
