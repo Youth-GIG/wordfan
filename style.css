@@ -139,7 +139,7 @@ width: 86%;
 
 .bar1{
     height: 2px;
-    width: auto;
+    width: 90%;
     background-color: rgb(245, 199, 44);
     margin-left: auto;  
     margin-right: auto;  
@@ -542,7 +542,6 @@ a:link{
     color: #ffffff;
     font-size: 13px;
     margin-top: -10px;
-    background-color: aqua;
 }
 
 .bar1{
