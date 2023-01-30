@@ -154,7 +154,7 @@ width: 86%;
     font-size: 50px;
     text-align: center;
     background-color: rgb(25, 25, 25);    
-    width: 360px;
+    width: 30%;
     margin: auto;
     margin-top: -35px;
 }
@@ -542,7 +542,7 @@ a:link{
     color: #ffffff;
     font-size: 13px;
     margin-top: -10px;
-    width: 80%;
+    background-color: aqua;
 }
 
 .bar1{
@@ -561,7 +561,7 @@ a:link{
     font-size: 30px;
     text-align: center;
     background-color: rgb(25, 25, 25);    
-    width: 220px;
+    width: 20%;
     margin: auto;
     margin-top: -20px;
 }
@@ -849,7 +849,7 @@ margin-top: 0px;
   .topnav-mobile {
   display: flex;
   width: 330px;
-  height: 30px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
