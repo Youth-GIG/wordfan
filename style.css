@@ -113,7 +113,7 @@ width: 86%;
 
 .welcome-img{
   border-radius: 10px;
-  width: 560px;
+  width: 89%;
 }
 
 .spacer{
@@ -134,12 +134,12 @@ width: 86%;
     color: #ffffff;
     font-size: 20px;
     margin-top: -10px;
-    width: 500px;
+    width: auto;
 }
 
 .bar1{
     height: 2px;
-    width: 90%;
+    width: auto;
     background-color: rgb(245, 199, 44);
     margin-left: auto;  
     margin-right: auto;  
@@ -161,13 +161,14 @@ width: 86%;
 
 .sched-container{
     width: 1100px;
-    height: 520px;
+    height: auto;
     margin: auto;
     margin-top: 50px;
 }
 
 .schedule{
     width: 1100px;
+    height: auto;
     margin: auto;
     border-radius: 10px;
     transition: 0.40s;
@@ -515,11 +516,12 @@ a:link{
   .table-1-tablet{
   margin: auto;
   margin-top: 50px;
+  width: 90%;
 }
 
 .welcome-img{
   border-radius: 10px;
-  width: 500px;
+  width: 97%;
 }
 
 .spacer-tab{
@@ -540,7 +542,7 @@ a:link{
     color: #ffffff;
     font-size: 13px;
     margin-top: -10px;
-    width: 350px;
+    width: 80%;
 }
 
 .bar1{
@@ -566,7 +568,7 @@ a:link{
 
 .sched-container{
     width: 690px;
-    height: 320px;
+    height: auto;
     margin: auto;
     margin-top: 20px;
 }
@@ -980,12 +982,16 @@ div.scrollmenu-mobile video{
 
 .sched-container{
   width: 100%;
-  height:100%;
+    height: auto;
 }
 
 .schedule{
   width: 100%;
   border-radius: 0px;
+}
+
+.schedule:hover{
+  transform: scale(1);
 }
 
 .blackbackground-tablet{
