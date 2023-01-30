@@ -579,6 +579,10 @@ a:link{
     transition: 0.40s;
 }
 
+.schedule:hover{
+  transform: scale(1);
+}
+
 .blackbackground-tablet{
   width: 100%;
   height: 800px;
