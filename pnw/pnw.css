@@ -1,0 +1,363 @@
+
+html{
+  scroll-behavior: smooth;
+     -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+body{
+    margin: 0 auto;
+    background-image: linear-gradient(#191919 2%, #000000);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y proximity;
+}
+
+.section-1{
+    width: 100%;
+    height: auto;
+    scroll-snap-align: start;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+}
+
+.wfan-logo{
+    margin-top: 15px;
+    width: 50px;
+    margin-left: 15px;
+    transition: 0.40s;
+}
+
+.wfan-logo:hover{
+  transform: rotate(360deg) scale(1.3);
+}
+
+.topnav {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  justify-content: center;
+  transition: 0.40s;
+  z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 2%;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+    transition: 0.40s;
+      border-radius: 30px;
+
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(0, 0, 0);
+  transform: scale(1.1);
+  color: #ffffff;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+}
+
+
+.img-container{
+    width: 90%;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-1{
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.img-container-2{
+    width: 450px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.spcacer{
+  width: 50px;
+  height: 100px;
+}
+
+.title{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.details{
+      font-family: 'Roboto', sans-serif;
+    color: #8A8A8A;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -10px;
+    width: auto;
+}
+
+.section-2{
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+      position: relative;
+  text-align: center;
+}
+
+.img-container-section{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.img-section{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+    transition: 0.40s;
+    object-fit: cover;
+      overflow: hidden;
+}
+
+.img-section:hover{
+    transform: scale(1.1);
+
+}
+
+.title-section{
+  text-align: center;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-3{
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+      position: relative;
+  text-align: center;
+}
+
+.title-section-2{
+  text-align: center;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-4{
+    width: 100%;
+    height: auto;
+    scroll-snap-align: start;
+}
+
+.parent-mobile{
+  display: none;
+}
+
+@media  (max-width: 1313px) {
+
+  body{
+    margin: 0 auto;
+    background-image: linear-gradient(#191919 1%, #000000);
+}
+  .table-1{
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.img-container-2{
+    width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.title{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.details{
+      font-family: 'Roboto', sans-serif;
+    color: #8A8A8A;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: -10px;
+    width: auto;
+}
+
+.parent-mobile{
+  display: none;
+}
+
+}
+
+
+@media only screen and (max-width:750px) {
+  .parent-desktop{
+    display: none;
+  }
+
+  .parent-mobile{
+    display: block;
+  }
+
+
+    .navbar{
+    display: flex;
+  }
+
+  .wfan-logo{
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .topnav-mobile {
+  display: flex;
+  width: 330px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  justify-content: center;
+  transition: 0.40s;
+  z-index: 1;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav-mobile a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 2%;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+    transition: 0.40s;
+    border-radius: 5px;
+
+
+}
+
+/* Change the color of links on hover */
+.topnav-mobile a:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+/* Add a color to the active/current link */
+.topnav-mobile a.active {
+  text-decoration: underline;
+}
+
+.img-container{
+  height: 300px;
+  width: 100%;
+  border-radius: 0%;
+  margin-top: 30px;
+}
+
+.title{
+  font-size: 35wpx;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.details{
+  font-size: 15px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.section-1{
+  margin-bottom: 100px;
+}
+
+.title-section{
+  font-size: 40px;
+}
+
+.img-container-2{
+  height: 300px;
+  width: 90%;
+  margin-top: 50px;
+}
+
+.height-spacer{
+  height: 100px;
+  width: auto;
+}
+
+}

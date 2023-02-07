@@ -108,7 +108,7 @@ div.scrollmenu video{
 .table-1{
 margin: auto;
 margin-top: 100px;
-width: 86%;
+width: 70%;
 }
 
 .welcome-img{
@@ -117,12 +117,12 @@ width: 86%;
 }
 
 .spacer{
-  height: 70px;
+  height: 0px;
   width: 0px;
 }
 
 .welcome-1{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #ffffff;
     font-weight: 700;
     font-size: 50px;
@@ -131,7 +131,8 @@ width: 86%;
 
 .welcome-2{
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
+    color: #8A8A8A;
+    font-weight: 400;
     font-size: 20px;
     margin-top: -10px;
     width: auto;
@@ -148,7 +149,7 @@ width: 86%;
 }
 
 .daily-sched{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: 700;
     color: #ffffff;
     font-size: 50px;
@@ -186,11 +187,11 @@ width: 86%;
 }
 
 .ministries{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #ffffff;
     text-align: center;
     width: 400px;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 50px;
     margin: auto;
 }
@@ -255,6 +256,7 @@ width: 86%;
 
 .married-img{
   width: 100%;
+  height: 220px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
      -webkit-user-select: none; /* Safari */
@@ -264,6 +266,7 @@ width: 86%;
 
 .youth-img{
   width: 100%;
+    height: 220px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
      -webkit-user-select: none; /* Safari */
@@ -273,6 +276,7 @@ width: 86%;
 
 .praise-img{
   width: 100%;
+    height: 220px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
      -webkit-user-select: none; /* Safari */
@@ -282,6 +286,7 @@ width: 86%;
 
 .kkm-img{
   width: 100%;
+    height: 220px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
      -webkit-user-select: none; /* Safari */
@@ -296,6 +301,7 @@ width: 86%;
   user-select: none; /* Standard syntax */
   text-align: center;
     font-size: 30px;
+    font-weight: 700;
     margin-top: 7px;
       color: #ffffff;
 
@@ -310,7 +316,7 @@ width: 86%;
   margin-right: auto;
   margin-top: -10px;
   font-size: 15px;
-  color: #d5d5d5;
+  color: #8A8A8A;
       font-family: 'Atkinson Hyperlegible', sans-serif;
    -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -326,6 +332,7 @@ width: 86%;
   text-align: center;
     font-size: 30px;
     margin-top: 7px;
+    font-weight: 700;
   color: #ffffff;
 
 
@@ -334,12 +341,12 @@ width: 86%;
 .youth-text2{
   width: 90%;
   text-align: center;
+    color: #8A8A8A;
   text-decoration: none;
     margin-left: auto;
   margin-right: auto;
   margin-top: -10px;
   font-size: 15px;
-  color: #d5d5d5;
       font-family: 'Atkinson Hyperlegible', sans-serif;
    -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -355,6 +362,7 @@ width: 86%;
     font-size: 30px;
     margin-top: 7px;
   color: #ffffff;
+  font-weight: 700;
 
 
 }
@@ -367,7 +375,7 @@ width: 86%;
   margin-right: auto;
   margin-top: -10px;
   font-size: 15px;
-  color: #d5d5d5;
+  color: #8A8A8A;
       font-family: 'Atkinson Hyperlegible', sans-serif;
    -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -382,6 +390,7 @@ width: 86%;
   text-align: center;
     font-size: 30px;
     margin-top: 7px;
+    font-weight: 700;
   color: #ffffff;
 
 
@@ -395,7 +404,7 @@ width: 86%;
   margin-right: auto;
   margin-top: -10px;
   font-size: 15px;
-  color: #d5d5d5;
+  color: #8A8A8A;
       font-family: 'Atkinson Hyperlegible', sans-serif;
    -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -530,9 +539,9 @@ a:link{
 }
 
 .welcome-1{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #ffffff;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 30px;
     margin-top: 0px;
 }
@@ -555,8 +564,9 @@ a:link{
 }
 
 .daily-sched{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #ffffff;
+    font-weight: 700;
     font-size: 30px;
     text-align: center;
     background-color: rgb(25, 25, 25);    
@@ -593,6 +603,9 @@ a:link{
 
 .ministries{
   font-size: 30px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: 700
+
 }
 
 .horizontal-snap {
@@ -645,6 +658,8 @@ a:link{
 
 .married-img{
   width: 100%;
+      height: 170px;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
      -webkit-user-select: none; /* Safari */
@@ -654,6 +669,8 @@ a:link{
 
 .youth-img{
   width: 100%;
+        height: 170px;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
      -webkit-user-select: none; /* Safari */
@@ -663,6 +680,8 @@ a:link{
 
 .praise-img{
   width: 100%;
+        height: 170px;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
      -webkit-user-select: none; /* Safari */
@@ -672,6 +691,8 @@ a:link{
 
 .kkm-img{
   width: 100%;
+        height: 170px;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
      -webkit-user-select: none; /* Safari */
@@ -941,6 +962,9 @@ div.scrollmenu-mobile video{
 .welcome-1{
   text-align: center;
   font-size: 40px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: 700;
+
 }
 
 .yellow-bar{
@@ -969,7 +993,8 @@ div.scrollmenu-mobile video{
 }
 
 .daily-sched{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: 700;
     color: #ffffff;
     font-size: 40px;
     text-align: center;
@@ -1001,6 +1026,8 @@ div.scrollmenu-mobile video{
 }
 
 .ministries{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: 700;
   font-size: 30px;
   width: 100%;
 }
@@ -1055,6 +1082,8 @@ div.scrollmenu-mobile video{
 
 .married-img{
   width: 100%;
+  height: 170px;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
      -webkit-user-select: none; /* Safari */
@@ -1064,6 +1093,8 @@ div.scrollmenu-mobile video{
 
 .youth-img{
   width: 100%;
+        height: 170px;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
      -webkit-user-select: none; /* Safari */
@@ -1073,6 +1104,8 @@ div.scrollmenu-mobile video{
 
 .praise-img{
   width: 100%;
+        height: 170px;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
      -webkit-user-select: none; /* Safari */
@@ -1082,6 +1115,8 @@ div.scrollmenu-mobile video{
 
 .kkm-img{
   width: 100%;
+        height: 170px;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
      -webkit-user-select: none; /* Safari */

@@ -1,0 +1,725 @@
+
+html{
+  scroll-behavior: smooth;
+     -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+body{
+    margin: 0 auto;
+    background-color: rgb(25, 25, 25);
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+}
+
+.wfan-logo{
+    margin-top: 15px;
+    width: 50px;
+    margin-left: 15px;
+    transition: 0.40s;
+}
+
+.wfan-logo:hover{
+  transform: rotate(360deg) scale(1.3);
+}
+
+.topnav {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  justify-content: center;
+  transition: 0.40s;
+  z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 2%;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+    transition: 0.40s;
+      border-radius: 30px;
+
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(0, 0, 0);
+  transform: scale(1.1);
+  color: #ffffff;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+}
+
+.div-1{
+  width: 80%;
+  margin: auto;
+  margin-top: 30px
+}
+
+.table-1{
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.img-container{
+    width: 400px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.married-img{
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.40s;
+  overflow: hidden;
+}
+
+.married-img:hover{
+  transform: scale(1.1);
+}
+
+.spacer{
+  width: 50px;
+}
+
+.Married{
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.Married-details{
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #8A8A8A;
+}
+
+.explore-right{
+    color: #000000;
+  text-align: center;
+  padding: 8px 2%;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;   
+  background-color: rgb(255, 214, 10);
+  border-radius: 50px;
+  float: right;
+  margin-top: 30px;
+  width: 100px;
+  height: 20px;
+  transition: 0.40s;
+}
+
+.explore-right:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.div-2{
+  width: 80%;
+  margin: auto;  
+  margin-top: 30px
+}
+
+.table-2{
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.img-container{
+    width: 400px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.youthgig-img{
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.40s;
+  overflow: hidden;
+}
+
+.youthgig-img:hover{
+  transform: scale(1.1);
+}
+
+.spacer{
+  width: 50px;
+}
+
+.youthgig{
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.youthgig-details{
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #8A8A8A;
+}
+
+.explore-left{
+    color: #000000;
+  text-align: center;
+  padding: 8px 2%;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;   
+  background-color: rgb(255, 214, 10);
+  border-radius: 50px;
+  float: left;
+  margin-top: 30px;
+  width: 100px;
+  height: 20px;
+  transition: 0.40s;
+}
+
+.explore-left:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.div-3{
+  width: 80%;
+  margin: auto;
+  margin-top: 30px
+}
+
+.table-3{
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.img-container{
+    width: 400px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.praise-and-worship-img{
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.40s;
+  overflow: hidden;
+}
+
+.praise-and-worship-img:hover{
+  transform: scale(1.1);
+}
+
+.spacer{
+  width: 50px;
+}
+
+.praise-and-worship{
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.Praise-and-worship-details{
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #8A8A8A;
+}
+
+.explore-left{
+    color: #000000;
+  text-align: center;
+  padding: 8px 2%;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;   
+  background-color: rgb(255, 214, 10);
+  border-radius: 50px;
+  float: left;
+  margin-top: 30px;
+  width: 100px;
+  height: 20px;
+  transition: 0.40s;
+}
+
+.explore-left:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.div-4{
+  width: 80%;
+  margin: auto;
+    margin-top: 30px
+}
+
+.table-4{
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.img-container{
+    width: 400px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.kkm-img{
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.40s;
+  overflow: hidden;
+}
+
+.kkm-img:hover{
+  transform: scale(1.1);
+}
+
+.spacer{
+  width: 50px;
+}
+
+.kkm{
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.kkm-details{
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #8A8A8A;
+}
+
+.explore-right{
+    color: #000000;
+  text-align: center;
+  padding: 8px 2%;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;   
+  background-color: rgb(255, 214, 10);
+  border-radius: 50px;
+  float: right;
+  margin-top: 30px;
+  width: 100px;
+  height: 20px;
+  transition: 0.40s;
+}
+
+.explore-right:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.gap{
+  height: 100px;
+}
+
+.parent-mobile{
+  display: none;
+}
+
+
+
+
+@media  (max-width: 1313px) {
+  .div-1{
+  width: 100%;
+  margin-top: 30px
+}
+
+.table-1{
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+
+.img-container{
+  width: 350px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.married-img{
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.40s;
+  overflow: hidden;
+}
+
+.married-img:hover{
+  transform: scale(1.1);
+}
+
+.spacer{
+  width: 10px;
+}
+
+.Married{
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.Married-details{
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #8A8A8A;
+}
+
+.div-2{
+  width: 100%;
+  margin-top: 30px
+}
+
+.table-2{
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+
+.img-container{
+  width: 350px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.youthgig-img{
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.40s;
+  overflow: hidden;
+}
+
+.youthgig-img:hover{
+  transform: scale(1.1);
+}
+
+.spacer{
+  width: 50px;
+}
+
+.youthgig{
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.youthgig-details{
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #8A8A8A;
+}
+
+.div-3{
+  width: 100%;
+  margin-top: 30px
+}
+
+.table-3{
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+
+.img-container{
+  width: 350px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.praise-and-worship-img{
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.40s;
+  overflow: hidden;
+}
+
+.praise-and-worship-img:hover{
+  transform: scale(1.1);
+}
+
+.spacer{
+  width: 50px;
+}
+
+.praise-and-worship{
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.Praise-and-worship-details{
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #8A8A8A;
+}
+
+.div-4{
+  width: 100%;
+  margin-top: 30px
+}
+
+.table-4{
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+
+.img-container{
+    width: 350px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.kkm-img{
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.40s;
+  overflow: hidden;
+}
+
+.kkm-img:hover{
+  transform: scale(1.1);
+}
+
+.spacer{
+  width: 50px;
+}
+
+.kkm{
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.kkm-details{
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #8A8A8A;
+}
+
+.parent-mobile{
+  display: none;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width:750px) {
+  .parent-desktop{
+    display: none;
+  }
+
+  .parent-mobile{
+    display: block;
+  }
+
+  body{
+    background-image: linear-gradient(#191919 0.5%, #000000);
+  }
+
+  .navbar-mobile{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+
+    .wfan-logo-mobile{
+    margin-top: 15px;
+    width: 50px;
+    margin-left: 0px;
+  }
+
+  .topnav-mobile {
+  display: flex;
+  width: 330px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  justify-content: center;
+  transition: 0.40s;
+  z-index: 1;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav-mobile a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 2%;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+    transition: 0.40s;
+    border-radius: 5px;
+
+
+}
+
+/* Change the color of links on hover */
+.topnav-mobile a:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+/* Add a color to the active/current link */
+.topnav-mobile a.active {
+}
+
+.scroll-menu{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.section-1{
+  background-color: rgba(17, 165, 17, 0);
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.img-container-mobile{
+  position: relative;
+  width: 340px;
+  height: 340px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+.img{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+    opacity: 0.6;
+    border-radius: 10px;
+
+}
+
+.text{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+    font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  transform: translate(-50%, -50%);
+}
+
+.button{
+  position: absolute;
+  background-color: rgb(255, 214, 10);
+  color: #000000;
+  text-align: center;
+  padding: 8px 2%;
+  margin: auto;
+  text-decoration: none;
+  margin-top: 160px;
+  width: 90px;
+  font-size: 20px;
+  border-radius: 40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; 
+    top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.40s;
+
+}
+
+.button:hover{
+    background-color: #000000;
+  color: #ffffff;
+}
+
+.spacer-mobile{
+  height: 50px;
+  width: auto;
+}
+
+}
