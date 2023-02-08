@@ -318,7 +318,6 @@ body{
 
 /* Add a color to the active/current link */
 .topnav-mobile a.active {
-  text-decoration: underline;
 }
 
 .img-container{

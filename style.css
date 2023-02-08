@@ -8,7 +8,7 @@ html{
 
 body{
     margin: 0 auto;
-    background-color: rgb(25, 25, 25);
+    background-image: linear-gradient(#191919 2%, #000000);
 }
 
 .navbar{
@@ -138,33 +138,25 @@ width: 70%;
     width: auto;
 }
 
-.bar1{
-    height: 2px;
-    width: 90%;
-    background-color: rgb(245, 199, 44);
-    margin-left: auto;  
-    margin-right: auto;  
-    margin-top: 100px;
-    border-radius: 20px;
-}
-
 .daily-sched{
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: 700;
     color: #ffffff;
+    border-radius: 90px;
+    padding: 30px;
     font-size: 50px;
+    border: 2px solid rgb(245, 199, 44);
     text-align: center;
-    background-color: rgb(25, 25, 25);    
-    width: 30%;
+    width: fit-content;
     margin: auto;
-    margin-top: -35px;
+    margin-top: 100px;
 }
 
 .sched-container{
     width: 1100px;
     height: auto;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .schedule{
@@ -180,10 +172,10 @@ width: 70%;
 }
 
 .black-background{
-    background-color: black;
     width: 100%;
     height: 1000px;
     padding-top: 40px;
+    margin-top: 100px;
 }
 
 .ministries{
@@ -548,31 +540,33 @@ a:link{
 
 .welcome-2{
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
+    color: #8A8A8A;
     font-size: 13px;
     margin-top: -10px;
 }
 
 .bar1{
     height: 2px;
-    width: 90%;
-    background-color: rgb(245, 199, 44);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
     margin-left: auto;  
     margin-right: auto;  
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 20px;
 }
 
 .daily-sched{
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    color: #ffffff;
     font-weight: 700;
-    font-size: 30px;
+    color: #ffffff;
+    border-radius: 90px;
+    padding: 30px;
+    font-size: 50px;
+    border: 2px solid rgb(245, 199, 44);
     text-align: center;
-    background-color: rgb(25, 25, 25);    
-    width: 20%;
+    width: fit-content;
     margin: auto;
-    margin-top: -20px;
+    margin-top: 100px;
 }
 
 .sched-container{
@@ -596,8 +590,8 @@ a:link{
 .blackbackground-tablet{
   width: 100%;
   height: 800px;
-  background-color: #000000;
   padding-top: 70px;
+  margin-top: 50px;
   
 }
 
@@ -994,14 +988,16 @@ div.scrollmenu-mobile video{
 
 .daily-sched{
     font-family: 'Atkinson Hyperlegible', sans-serif;
-  font-weight: 700;
+    font-weight: 700;
     color: #ffffff;
-    font-size: 40px;
+    border-radius: 90px;
+    padding: 20px;
+    font-size: 30px;
+    border: 2px solid rgb(245, 199, 44);
     text-align: center;
-    background-color: rgb(25, 25, 25);    
-    width: 170px;
+    width: fit-content;
     margin: auto;
-    margin-top: -50px;
+    margin-top: 100px;
 }
 
 .sched-container{
@@ -1021,7 +1017,6 @@ div.scrollmenu-mobile video{
 .blackbackground-tablet{
   width: 100%;
   height: 800px;
-  background-color: #000000;
   padding-top: 50px;
 }
 
