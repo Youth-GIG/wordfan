@@ -175,7 +175,7 @@ width: 70%;
 
 .black-background{
     width: 100%;
-    height: 1000px;
+    height: auto;
     padding-top: 40px;
     margin-top: 100px;
 }
@@ -411,55 +411,57 @@ a:link{
 }
 
 .bar3{
-    width: 100%;
+    width: 90%;
     height: 1px;
     background-color: rgb(255, 255, 255);
     margin: auto;
     margin-top: 150px;
 }
 
-.email{
-    font-family: 'Roboto', sans-serif;
+.bottom-div-container{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+
+}
+
+.bottom-div{
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  gap: 40px;
+  display: flex;
+  margin-top: 50px;
+
+}
+
+.bottom-div-content{
+  width: auto;
+}
+
+.bottom-div-title{
+      font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #ffffff;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-left: 40px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
-.email-address{
-      font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    font-size: 40px;
-    margin-top: -10px;
-    margin-left: 40px;
+.bottom-div-link{
+  font-family: 'Roboto', sans-serif;
+  color: #8A8A8A;
+  font-weight: 400;
+  transition: 0.20s;
 }
 
-.facebook{
-  width: 40px;
-  height: 40px;
-  background-color: aqua;
-  border-radius: 10px;
-  margin-left: 40px;
-  margin-top: -20px;
-  transition: 0.40s;
+.bottom-div-link:hover{
+  color: #ffffff;
 }
 
-.facebook:hover{
-  transform: scale(1.2);
-}
-
-.youtube{
-  width: 40px;
-  height: 40px;
-  background-color: aqua;
-  border-radius: 10px;
-  margin-left: 20px;
-  margin-top: -20px;
-  transition: 0.40s;
-}
-
-.youtube:hover{
-  transform: scale(1.2);
+.td1-spacer{
+width: 80px;
+height: auto;
 }
 
 .mobile-parent{
@@ -592,7 +594,7 @@ a:link{
 
 .blackbackground-tablet{
   width: 100%;
-  height: 800px;
+  height: auto;
   padding-top: 70px;
   margin-top: 50px;
   
@@ -814,20 +816,48 @@ a:link{
   margin-top: 80px;
 }
 
-.email{
-  font-size: 20px;
+.bottom-div-container{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
 }
 
-.email-address{
-  font-size: 20px;
+.bottom-div{
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  gap: 40px;
+  display: flex;
+  margin-top: 50px;
 }
 
-.facebook{
-margin-top: 0px;
+.bottom-div-content{
+  width: auto;
 }
-.youtube{
-margin-top: 0px;
+
+.bottom-div-title{
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
 }
+
+.bottom-div-link{
+  font-family: 'Roboto', sans-serif;
+  color: #8A8A8A;
+  font-weight: 400;
+  transition: 0.20s;
+}
+
+.bottom-div-link:hover{
+  color: #ffffff;
+}
+
+.td1-spacer{
+width: 20px;
+height: auto;
+}
+
 
 .parent-mobile{
   display: none;
@@ -1020,7 +1050,7 @@ div.scrollmenu-mobile video{
 
 .blackbackground-tablet{
   width: 100%;
-  height: 800px;
+  height: auto;
   padding-top: 50px;
 }
 
@@ -1240,41 +1270,36 @@ div.scrollmenu-mobile video{
   margin-top: 80px;
 }
 
-.email{
-      font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    margin-top: 30px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.email-address{
-      font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    font-size: 30px;
-    margin-top: -10px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-
-}
-
-
-.facebook{
-  margin-top: 0px;
-  margin-left: 0px;
-}
-.youtube{
-  margin-top: 0px;
-}
-
-.social-table{
+.bottom-div-container{
   width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
+  margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.bottom-div-title{
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+}
+
+.bottom-div-link{
+  font-family: 'Roboto', sans-serif;
+  color: #8A8A8A;
+      text-align: center;
+
+  font-weight: 400;
+  transition: 0.20s;
+}
+
+.bottom-div-link:hover{
+  color: #ffffff;
+}
+
+.bottom-div{
+  display: block;
 }
 
 }

@@ -93,8 +93,6 @@ body{
   object-fit: cover;
 }
 
-
-
 .married-for-life{
     font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #ffffff;
@@ -203,9 +201,76 @@ body{
   height: 100px;
 }
 
+a:link{
+  text-decoration: none!important;
+  
+}
+
+.bar3{
+    width: 90%;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 150px;
+}
+
+.bottom-div-container{
+  text-decoration: none;
+  width: 90%;
+  margin: auto;
+    display: flex;
+  justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.bottom-div{
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  gap: 40px;
+  display: flex;
+    margin-top: 50px;
+
+}
+
+.bottom-div-content{
+  width: auto;
+}
+
+.bottom-div-title{
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.bottom-div-link{
+  font-family: 'Roboto', sans-serif;
+  color: #8A8A8A;
+  font-weight: 400;
+  transition: 0.20s;
+}
+
+.bottom-div-link:hover{
+  color: #ffffff;
+}
+
+.td1-spacer{
+width: 80px;
+height: auto;
+}
+
 .parent-mobile{
   display: none;
 }
+
+
+
+
+
+
+
 
 /*portrait mode*/
 @media  (max-width: 1313px) {
@@ -360,6 +425,38 @@ margin-top: 100px;
   margin-right: auto;
   height: 300px;
   border-radius: 0px;
+}
+
+.bottom-div-container{
+  width: auto;
+  margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.bottom-div-title{
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+}
+
+.bottom-div-link{
+  font-family: 'Roboto', sans-serif;
+  color: #8A8A8A;
+      text-align: center;
+
+  font-weight: 400;
+  transition: 0.20s;
+}
+
+.bottom-div-link:hover{
+  color: #ffffff;
+}
+
+.bottom-div{
+  display: block;
 }
 
 }
