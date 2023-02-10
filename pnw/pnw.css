@@ -261,8 +261,8 @@ a:link{
 
 .bottom-div-link:hover{
   color: #ffffff;
+  text-decoration: underline white 1px;
 }
-
 .td1-spacer{
 width: 80px;
 height: auto;
@@ -447,8 +447,8 @@ height: auto;
 
 .bottom-div-link:hover{
   color: #ffffff;
+  text-decoration: underline white 1px;
 }
-
 .bottom-div{
   display: block;
 }

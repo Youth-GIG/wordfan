@@ -11,6 +11,19 @@ body{
     background-image: linear-gradient(#191919 2%, #000000);
 }
 
+.scroll-container{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y proximity;
+}
+
+.section-1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 200px;
+}
+
 .navbar{
     height: 70px;
     width: 100%;
@@ -65,123 +78,157 @@ body{
   color: #ffffff;
 } 
 
-/* Add a color to the active/current link */
-.topnav a.active {
-}
-
-.element1{
-  width: 90%;
-  display: flex;
+.img-container{
+    width: 90%;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.title{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    width: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.details{
+        font-family: 'Roboto', sans-serif;
+    color: #8A8A8A;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: -10px;
+    width: 80%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-container-2{
+    width: 90%;
+  height: 500px;
+  overflow: hidden;
   border-radius: 10px;
-}
-
-
-
-.section-1{
-  width: 70%;
-  margin: auto;
-}
-
-.who-are-we{
-  width: 320px;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-  font-weight: 700;
-  color: #ffffff;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  font-size: 50px;
-}
-
-.who-are-we-details{
-    font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-    color: #8A8A8A;
-      text-align: center;
-
-  width: 86%;
-  font-size: 25px;
-  margin: auto;
 }
 
 .section-2{
-  width: 70%;
-  margin: auto;
-  margin-top: 150px;
-}
-
-.our-vision{
-  width: 270px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 50px;
-}
-
-.element2{
-  display: flex;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-}
-
-.our-vision-details{
-    font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-    color: #8A8A8A;
-  width: 86%;
-  font-size: 25px;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+      position: relative;
   text-align: center;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .section-3{
-  width: 70%;
-  margin: auto;
-    margin-top: 150px;
-
-}
-
-.our-mission{
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 50px;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+      position: relative;
   text-align: center;
 }
 
-.element3{
-  display: flex;
+.img-container-section{
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
+  height: 100%;
+  overflow: hidden;
 }
 
-.our-mission-details{
-    font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-    color: #8A8A8A;
-  width: 86%;
-  font-size: 25px;
-  margin-top: 50px;
-    text-align: center;
+.section-5{
+      width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
 
+.table-spotify{
+  width: 70%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;  
+  margin-top: 0px;
+}
+
+.container-spotify{
+  width: 600px;
+  height: 600px;
+  transition: 0.40s;
+}
+
+.spotify{
+  width: 100%;
+  height: 100%;
+}
+
+.spacer{
+  width: 50px;
+}
+
+.container-text{
+  width: auto;
+}
+
+.title-spotify{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    width: auto;
+    margin-top: 50px;
+
+}
+
+.details-spotify{
+        font-family: 'Roboto', sans-serif;
+    color: #8A8A8A;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: -10px;
+
+}
+
+.explore-right{
+    color: #000000;
+  text-align: center;
+  padding: 8px 2%;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;   
+  background-color: rgb(255, 214, 10);
+  border-radius: 50px;
+  float: right;
+  margin-top: 0px;
+  width: 100px;
+  height: 20px;
+  transition: 0.40s;
+}
+
+.explore-right:hover{
+  background-color: #000000;
+  color: #ffffff;
+  transform: scale(1.1);
+  border: 1px solid white;
 }
 
 a:link{
@@ -251,7 +298,6 @@ width: 80px;
 height: auto;
 }
 
-
 .parent-mobile{
   display: none;
 }
@@ -261,13 +307,75 @@ height: auto;
 
 
 
+@media  (max-width: 1313px) {
+  .table-spotify{
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.container-spotify{
+  width: 400px;
+  height: 600px;
+}
+
+.spotify{
+  width: 100%;
+  height: 100%;
+}
+
+.spacer{
+  width: 30px;
+}
+
+.container-text{
+  width: auto;
+}
+
+.title-spotify{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 0px;
+
+}
+
+.details-spotify{
+      font-family: 'Roboto', sans-serif;
+    color: #8A8A8A;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: -10px;
+    width: auto;
+
+}
+
+.parent-mobile{
+  display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:750px) {
 
-  .parent-mobile{
-  display: block;
+  .parent-desktop{
+    display: none;
   }
 
-    .navbar{
+  .parent-mobile{
+    display: block;
+  }
+
+      .navbar{
     display: flex;
     justify-content: center;
   }
@@ -321,98 +429,19 @@ height: auto;
   text-decoration: underline;
 }
 
-.element1{
-  width: 100%;
-  border-radius: 0%;
-  margin-top: 30px;
-}
 
-.bar1{
-  display: none;
-}
-
-.section-1{
-  width: 86%;
-  margin: auto;
-}
-
-.who-are-we{
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 50px;
-  text-align: center;
-}
-
-.who-are-we-details{
-    font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-    color: #8A8A8A;
-  width: 86%;
-  font-size: 20px;
-  text-align: center;
-  margin: auto;
-}
-
-.bar-mobile{
-    width: 100%;
-  display: flex;
-  margin-top: 60px;
-  height: 2px;
-  background-color: #f5c72c;
-}
-
-.section-2{
-  width: 86%;
-  margin: auto;
-  margin-top: 70px;
-}
-
-.our-vision{
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 50px;
-  text-align: center;
-}
-
-.element2{
-  width: 100%;
+.img-container{
+    width: 90%;
+  height: auto;
+  overflow: hidden;
   border-radius: 10px;
-}
-
-.our-vision-details{
-    font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-    color: #8A8A8A;
-  width: 86%;
-  font-size: 20px;
-  margin-top: 50px;
   margin-left: auto;
-    text-align: center;
-
   margin-right: auto;
-}
-
-.section-3{
-  width: 86%;
-  margin: auto;
-    margin-top: 70px;
-
-}
-
-.bar-mobile{
-  display: none;
-}
-
-.our-mission{
   margin-top: 30px;
+}
+
+.title{
+    margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -422,38 +451,104 @@ height: auto;
   text-align: center;
 }
 
-.element3{
-  display: flex;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-}
-
-.our-mission-details{
-    font-family: 'Roboto', sans-serif;
+.details{
+      font-family: 'Roboto', sans-serif;
   font-weight: 400;
     color: #8A8A8A;
   width: 86%;
-    text-align: center;
-
   font-size: 20px;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  margin: auto;
 }
 
-.black-background{
-    width: 100%;
-    height: auto;
-}
 
-.social-table{
-  width: auto;
+.img-container-2{
+    width: 90%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 100px;
 }
+
+.container-text{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+.section-5{
+      width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+}
+
+.container-spotify{
+  width: 90%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bottom-div-container{
   width: auto;
@@ -488,5 +583,5 @@ height: auto;
   display: block;
 }
 
-
 }
+

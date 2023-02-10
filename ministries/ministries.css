@@ -137,8 +137,10 @@ body{
 }
 
 .explore-right:hover{
-  background-color: #000000;
+  background-color: transparent;
   color: #ffffff;
+  transform: scale(1.1);
+  border: 1px solid white;
 }
 
 .div-2{
@@ -209,8 +211,10 @@ body{
 }
 
 .explore-left:hover{
-  background-color: #000000;
+  background-color: transparent;
   color: #ffffff;
+  transform: scale(1.1);
+  border: 1px solid white;
 }
 
 .div-3{
@@ -263,27 +267,6 @@ body{
   color: #8A8A8A;
 }
 
-.explore-left{
-    color: #000000;
-  text-align: center;
-  padding: 8px 2%;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;   
-  background-color: rgb(255, 214, 10);
-  border-radius: 50px;
-  float: left;
-  margin-top: 30px;
-  width: 100px;
-  height: 20px;
-  transition: 0.40s;
-}
-
-.explore-left:hover{
-  background-color: #000000;
-  color: #ffffff;
-}
 
 .div-4{
   width: 80%;
@@ -335,27 +318,6 @@ body{
   color: #8A8A8A;
 }
 
-.explore-right{
-    color: #000000;
-  text-align: center;
-  padding: 8px 2%;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;   
-  background-color: rgb(255, 214, 10);
-  border-radius: 50px;
-  float: right;
-  margin-top: 30px;
-  width: 100px;
-  height: 20px;
-  transition: 0.40s;
-}
-
-.explore-right:hover{
-  background-color: #000000;
-  color: #ffffff;
-}
 
 .gap{
   height: 100px;
@@ -424,6 +386,7 @@ a:link{
 
 .bottom-div-link:hover{
   color: #ffffff;
+  text-decoration: underline white 1px;
 }
 
 .td1-spacer{
@@ -779,8 +742,9 @@ height: auto;
 }
 
 .button:hover{
-    background-color: #000000;
+  background-color: transparent;
   color: #ffffff;
+  border: 1px solid white;
 }
 
 .spacer-mobile{
@@ -814,6 +778,7 @@ height: auto;
 
 .bottom-div-link:hover{
   color: #ffffff;
+  text-decoration: underline white 1px;
 }
 
 .bottom-div{

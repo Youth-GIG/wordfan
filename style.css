@@ -245,6 +245,8 @@ width: 70%;
 .learn-1:hover {
   background-color: #000000;
   color: #ffffff;
+    transform: scale(1.2);
+
 }
 
 .married-img{
@@ -456,6 +458,7 @@ a:link{
 
 .bottom-div-link:hover{
   color: #ffffff;
+  text-decoration: underline white 1px;
 }
 
 .td1-spacer{
@@ -473,6 +476,10 @@ height: auto;
 
 .parent-mobile{
   display: none;
+}
+
+@media (prefers-color-scheme: light) {
+
 }
 
 
@@ -651,6 +658,8 @@ height: auto;
 .learn-1:hover {
   background-color: #000000;
   color: #ffffff;
+      transform: scale(1.2);
+
 }
 
 .married-img{
@@ -1104,6 +1113,8 @@ div.scrollmenu-mobile video{
 .learn-1:hover {
   background-color: #000000;
   color: #ffffff;
+      transform: scale(1.2);
+
 }
 
 .married-img{
