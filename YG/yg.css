@@ -114,7 +114,7 @@ body{
         font-family: 'Roboto', sans-serif;
     color: #8A8A8A;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: -10px;
     width: 80%;
     text-align: center;
@@ -163,7 +163,7 @@ body{
 }
 
 .table-spotify{
-  width: 70%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;  
   margin-top: 0px;
@@ -202,7 +202,7 @@ body{
         font-family: 'Roboto', sans-serif;
     color: #8A8A8A;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: -10px;
 
 }

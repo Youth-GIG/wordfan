@@ -906,6 +906,10 @@ height: auto;
     margin-top: 15px;
   }
 
+  .wfan-logo:hover{
+    transform: scale(1);
+  }
+
   .topnav-mobile {
   display: flex;
   width: 330px;
@@ -1015,10 +1019,12 @@ div.scrollmenu-mobile video{
 
 .welcome-text{
   width: 95%;
-  color: #ffffff;
+    color: #8A8A8A;
   font-family: 'Roboto', sans-serif;
-  margin-left: 10px;
-  font-size: 13px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 15px;
 
 }
 
@@ -1039,7 +1045,7 @@ div.scrollmenu-mobile video{
     border-radius: 90px;
     padding: 10px;
     padding-left: 18px;
-    padding-right: 18px;    font-size: 30px;
+    padding-right: 18px;    font-size: 40px;
     text-align: center;
     width: fit-content;
     margin: auto;
@@ -1069,7 +1075,7 @@ div.scrollmenu-mobile video{
 .ministries{
     font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
   width: 100%;
 }
 
