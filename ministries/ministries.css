@@ -409,6 +409,10 @@ height: auto;
   margin: auto;
 }
 
+  .wfan-logo-mobile:hover{
+  transform: scale(1);
+}
+
 .img-container{
   width: 350px;
   height: 450px;

@@ -275,6 +275,10 @@ height: auto;
     margin-left: 0px;
   }
 
+  .wfan-logo-mobile:hover{
+  transform: scale(1);
+}
+
   .topnav-mobile {
   display: flex;
   width: 330px;

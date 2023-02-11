@@ -346,12 +346,17 @@ margin-top: 100px;
 
     .navbar{
     display: flex;
+    justify-content: center;
   }
 
   .wfan-logo{
     margin: auto;
     margin-top: 15px;
   }
+
+    .wfan-logo:hover{
+  transform: scale(1);
+}
 
   .topnav-mobile {
   display: flex;
