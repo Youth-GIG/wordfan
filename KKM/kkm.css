@@ -87,7 +87,7 @@ body{
 }
 
 .table{
-    width: 70%;
+    width: 950px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -139,7 +139,7 @@ body{
   font-weight: 400;
   color: #8A8A8A;
     text-align: center;
-    width: 80%;
+    width: 950px;
     margin-left: auto;
     margin-right: auto;
 

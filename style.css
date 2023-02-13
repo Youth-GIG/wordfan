@@ -122,8 +122,7 @@ div.scrollmenu video{
 }
 
 .home-container{
-  background-color: #686868;
-  width: 80%;
+  width: 1000px;
   margin: auto;
 }
 
@@ -131,7 +130,7 @@ div.scrollmenu video{
 .table-1{
 margin: auto;
 margin-top: 100px;
-width: 80%;
+width: 100%;
 }
 
 .welcome-img-container{
@@ -185,14 +184,14 @@ width: 80%;
 }
 
 .sched-container{
-    width: 1100px;
+    width: 100%;
     height: auto;
     margin: auto;
     margin-top: 30px;
 }
 
 .schedule{
-    width: 1100px;
+    width: 100%;
     height: auto;
     margin: auto;
     border-radius: 10px;
@@ -213,11 +212,11 @@ width: 80%;
 .ministries{
     font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #ffffff;
-    text-align: center;
     width: 400px;
     font-weight: 700;
     font-size: 50px;
     margin: auto;
+    text-align: center;
 }
 
 .bar2{
@@ -235,7 +234,7 @@ width: 80%;
   display: grid;
   grid-auto-flow: column;
   gap: 1rem;
-  max-width: 80%;
+  max-width: 100%;
   margin-top: 50px;
   border-radius: 10px;
   overflow-y: hidden;
@@ -462,13 +461,13 @@ div.container-tablet video{
 }
 
 .welcome-img-container{
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 }
 
 .welcome-img{
   border-radius: 10px;
-  width: 400px;
+  width: 350px;
 }
 
 .spacer-tab{
@@ -532,6 +531,17 @@ div.container-tablet video{
 
 .schedule:hover{
   transform: scale(1);
+}
+
+
+.ministries{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    width: 400px;
+    font-weight: 700;
+    font-size: 50px;
+        margin: auto;
+        text-align: center;
 }
 
 .blackbackground-tablet{
