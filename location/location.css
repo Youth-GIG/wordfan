@@ -1,0 +1,447 @@
+
+html{
+  scroll-behavior: smooth;
+     -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+body{
+    margin: 0 auto;
+    background-image: linear-gradient(#191919 2%, #000000);
+}
+
+a:link{
+  text-decoration: none!important;
+  
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(170, 7, 7, 0);
+}
+
+.wfan-logo{
+    margin-top: 15px;
+    width: 50px;
+    margin-left: 15px;
+    transition: 0.40s;
+}
+
+.wfan-logo:hover{
+  transform: rotate(360deg) scale(1.3);
+}
+
+.topnav {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  justify-content: center;
+  transition: 0.40s;
+  z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 2%;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+    transition: 0.40s;
+    border-radius: 30px;
+
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(0, 0, 0);
+  transform: scale(1.1);
+  color: #ffffff;
+} 
+
+/* Add a color to the active/current link */
+.topnav a.active {
+}
+
+.element1{
+  width: 90%;
+  display: flex;
+  object-fit: cover;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.title{
+  width: 320px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.details{
+    font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+    color: #8A8A8A;
+      text-align: center;
+
+  width: 1000px;
+  font-size: 20px;
+  margin: auto;
+}
+
+.table{
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.maps{
+    width: 500px;
+    border-radius: 30px;
+}
+
+.gap{
+    background-color: #ffffff;
+    width: 30px;
+}
+
+.title-2{
+  width: 320px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.details-2{
+    font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+    color: #8A8A8A;
+  font-size: 20px;
+}
+
+.bar3{
+    width: 90%;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 150px;
+}
+
+
+.black-background{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.bottom-div-container{
+  width: 90%;
+  margin: auto;
+    display: flex;
+  justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.bottom-div{
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  gap: 40px;
+  display: flex;
+    margin-top: 50px;
+
+}
+
+.bottom-div-content{
+  width: auto;
+}
+
+.bottom-div-title{
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.bottom-div-link{
+  font-family: 'Roboto', sans-serif;
+  color: #8A8A8A;
+  font-weight: 400;
+  transition: 0.20s;
+}
+
+.bottom-div-link:hover{
+  color: #ffffff;
+  text-decoration: underline white 1px;
+}
+
+.td1-spacer{
+width: 80px;
+height: auto;
+}
+
+
+
+
+
+
+
+
+@media  (max-width: 1313px) {
+.element1{
+  width: 90%;
+  display: flex;
+  object-fit: cover;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.title{
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.details{
+    font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+    color: #8A8A8A;
+      text-align: center;
+
+  width: 90%;
+  font-size: 20px;
+  margin: auto;
+}
+
+
+.table{
+    width: 90%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.maps{
+    width: 370px;
+    border-radius: 30px;
+}
+
+.gap{
+    background-color: #ffffff;
+    width: 20px;
+}
+
+.title-2{
+  width: 320px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.details-2{
+    font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+    color: #8A8A8A;
+  font-size: 20px;
+}
+
+.td1-spacer{
+width: 30px;
+height: auto;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:750px) {
+        .navbar{
+    display: flex;
+    justify-content: center;
+  }
+
+  .wfan-logo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+
+    .wfan-logo:hover{
+  transform: scale(1);
+}
+
+
+  .topnav {
+  display: flex;
+  width: 330px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  justify-content: center;
+  transition: 0.40s;
+  z-index: 1;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 2%;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+    transition: 0.40s;
+    border-radius: 5px;
+
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+.element1{
+  width: 90%;
+  display: flex;
+  object-fit: cover;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.table{
+    display: none;
+}
+
+.parent-mobile{
+    display: block;
+}
+
+.title-2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.details-2{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.maps{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.bottom-div-container{
+    display: none;
+}
+
+.bar3{
+    display: none;
+}
+
+.bar3-mobile{
+        width: 90%;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 150px;
+}
+
+
+.bottom-div-container-mobile{
+  width: auto;
+  margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.bottom-div-title{
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+}
+
+.bottom-div-link{
+  font-family: 'Roboto', sans-serif;
+  color: #8A8A8A;
+      text-align: center;
+
+  font-weight: 400;
+  transition: 0.20s;
+}
+
+.bottom-div-link:hover{
+  color: #ffffff;
+  text-decoration: underline white 1px;
+}
+
+.bottom-div{
+  display: block;
+}
+
+
+}
