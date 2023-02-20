@@ -189,7 +189,7 @@ div.scrollmenu video{
 .learn-2:hover {
   background-color: transparent;
   border: 1px solid white;
-  color: #ffffff;
+  color: #000000;
     transform: scale(1.2);
 
 }
@@ -841,7 +841,6 @@ div.scrollmenu-mobile {
   overflow: auto;
   white-space: nowrap;
   width: 100%;
-  height: 250px;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -887,7 +886,7 @@ div.scrollmenu-mobile video{
 .join{
   width: 90%;
   height: 320px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: auto;
   padding-top: 40px;
   margin-top: 60px;
@@ -940,7 +939,7 @@ div.scrollmenu-mobile video{
 .learn-2:hover {
   background-color: transparent;
   border: 1px solid white;
-  color: #ffffff;
+  color: #000000;
     transform: scale(1.2);
 
 }
@@ -1084,8 +1083,7 @@ div.scrollmenu-mobile video{
   width: 100%;
   height: 170px;
 object-fit: cover;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+border-radius: 20px;
      -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */

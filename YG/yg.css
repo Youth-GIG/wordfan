@@ -491,12 +491,28 @@ height: auto;
     margin-bottom: 30px;
 }
 
+.title-spotify{
+  text-align: center;
+}
+
+.details-spotify{
+  text-align: center;
+}
+
+
+.explore-right{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  float: none;
+}
+
 .container-spotify{
   width: 90%;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
+  margin-top: 50px;
 }
 
 
