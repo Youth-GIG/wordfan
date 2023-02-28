@@ -11,6 +11,11 @@ body{
     background-image: linear-gradient(#191919 2%, #000000);
 }
 
+.main-container{
+  background-color: aliceblue;
+  width: auto;
+}
+
 .navbar{
     height: 70px;
     width: 100%;
@@ -19,13 +24,13 @@ body{
 
 .wfan-logo{
     margin-top: 15px;
-    width: 50px;
+    width: 40px;
     margin-left: 15px;
     transition: 0.40s;
 }
 
 .wfan-logo:hover{
-  transform: rotate(360deg) scale(1.3);
+  transform: scale(1.2);
 }
 
 .topnav {
@@ -45,9 +50,9 @@ body{
   float: left;
   color: #ffffff;
   text-align: center;
-  padding: 8px 2%;
+  padding: 9px 2%;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
   font-family: 'Atkinson Hyperlegible', sans-serif;
    -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -67,6 +72,8 @@ body{
 
 /* Add a color to the active/current link */
 .topnav a.active {
+  text-decoration: underline;
+  color: #ffffff;
 }
 
 .div-1{
@@ -99,6 +106,8 @@ body{
 
 .married-img:hover{
   transform: scale(1.1);
+    opacity: 0.5;
+
 }
 
 .spacer{
@@ -107,8 +116,8 @@ body{
 
 .Married{
   font-size: 50px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+      font-weight: 700;
   color: #ffffff;
 }
 
@@ -173,6 +182,7 @@ body{
 
 .youthgig-img:hover{
   transform: scale(1.1);
+  opacity: 0.5;
 }
 
 .spacer{
@@ -181,8 +191,8 @@ body{
 
 .youthgig{
   font-size: 50px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+      font-weight: 700;
   color: #ffffff;
 }
 
@@ -247,6 +257,8 @@ body{
 
 .praise-and-worship-img:hover{
   transform: scale(1.1);
+    opacity: 0.5;
+
 }
 
 .spacer{
@@ -255,8 +267,8 @@ body{
 
 .praise-and-worship{
   font-size: 50px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+      font-weight: 700;
   color: #ffffff;
 }
 
@@ -298,6 +310,8 @@ body{
 
 .kkm-img:hover{
   transform: scale(1.1);
+    opacity: 0.5;
+
 }
 
 .spacer{
@@ -306,8 +320,8 @@ body{
 
 .kkm{
   font-size: 50px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+      font-weight: 700;
   color: #ffffff;
 }
 

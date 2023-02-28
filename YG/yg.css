@@ -11,34 +11,26 @@ body{
     background-image: linear-gradient(#191919 2%, #000000);
 }
 
-.scroll-container{
-    width: 100vw;
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y proximity;
-}
-
-.section-1{
-    width: 100%;
-    height: auto;
-    margin-bottom: 200px;
+.main-container{
+  background-color: aliceblue;
+  width: auto;
 }
 
 .navbar{
     height: 70px;
     width: 100%;
-    background-color: rgba(170, 7, 7, 0);
+    background-color: rgb(25, 25, 25);
 }
 
 .wfan-logo{
     margin-top: 15px;
-    width: 50px;
+    width: 40px;
     margin-left: 15px;
     transition: 0.40s;
 }
 
 .wfan-logo:hover{
-  transform: rotate(360deg) scale(1.3);
+  transform: scale(1.2);
 }
 
 .topnav {
@@ -58,15 +50,15 @@ body{
   float: left;
   color: #ffffff;
   text-align: center;
-  padding: 8px 2%;
+  padding: 9px 2%;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
   font-family: 'Atkinson Hyperlegible', sans-serif;
    -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
     transition: 0.40s;
-    border-radius: 30px;
+      border-radius: 30px;
 
 
 }
@@ -76,164 +68,146 @@ body{
   background-color: rgb(0, 0, 0);
   transform: scale(1.1);
   color: #ffffff;
-} 
-
-.img-container{
-    width: 90%;
-  height: 500px;
-  overflow: hidden;
-  border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
 }
 
-.img{
+.container-1{
   width: 100%;
-  height: 100%;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
+  height: 300px;
   object-fit: cover;
 }
 
-.title{
-        font-family: 'Atkinson Hyperlegible', sans-serif;
+.title-1{
+  position: relative;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #ffffff;
     font-weight: 700;
-    font-size: 50px;
-    width: auto;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 70px;
     text-align: center;
+    top: -580px;
 }
 
-.details{
-        font-family: 'Roboto', sans-serif;
+.img-container-1{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+      filter: to bottom, blur(100%) 10%;
+    -webkit-filter: to bottom, blur(100%) 10%;
+}
+
+.img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+  top: 175px;
+}
+
+.title-2{
+  position: relative;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    margin-top: -150px;    
+}
+
+.details-1{
+    font-family: 'Roboto', sans-serif;
     color: #8A8A8A;
     font-weight: 400;
-    font-size: 20px;
-    margin-top: -10px;
-    width: 80%;
+    font-size: 15px;
     text-align: center;
-    margin-right: auto;
+    width: 700px;
+    margin: auto;
+}
+
+.table{
+    width: 1000px;
     margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
 }
 
 .img-container-2{
-    width: 90%;
-  height: 500px;
-  overflow: hidden;
-  border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
+    width: 480px;
+    height: 500px;
 }
 
-.section-2{
-    width: 100%;
-    height: 100%;
-    scroll-snap-align: start;
-      position: relative;
-  text-align: center;
-}
-
-.section-3{
-    width: 100%;
-    height: 100%;
-    scroll-snap-align: start;
-      position: relative;
-  text-align: center;
-}
-
-.img-container-section{
+.img-2{
   width: 100%;
   height: 100%;
-  overflow: hidden;
-}
+      object-fit: cover;
 
-.section-5{
-      width: 100%;
-    height: 100%;
-    margin-top: 100px;
-    padding-top: 10px;
-    margin-bottom: 30px;
-}
-
-.table-spotify{
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;  
-  margin-top: 0px;
-}
-
-.container-spotify{
-  width: 600px;
-  height: 600px;
-  transition: 0.40s;
-}
-
-.spotify{
-  width: 100%;
-  height: 100%;
 }
 
 .spacer{
-  width: 50px;
+  width: 30px;
 }
 
-.container-text{
-  width: auto;
-}
-
-.title-spotify{
-        font-family: 'Atkinson Hyperlegible', sans-serif;
+.title-3{
+  position: relative;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #ffffff;
     font-weight: 700;
     font-size: 50px;
-    width: auto;
-    margin-top: 50px;
-
 }
 
-.details-spotify{
-        font-family: 'Roboto', sans-serif;
+.details-2{
+    font-family: 'Roboto', sans-serif;
     color: #8A8A8A;
     font-weight: 400;
-    font-size: 20px;
-    margin-top: -10px;
-
+    font-size: 15px;
+    width: auto;
+    margin: auto;
 }
 
-.explore-right{
-    color: #000000;
-  text-align: center;
-  padding: 8px 2%;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;   
-  background-color: rgb(255, 214, 10);
-  border-radius: 50px;
-  float: right;
-  margin-top: 0px;
-  width: 100px;
-  height: 20px;
-  transition: 0.40s;
-}
+.table-2{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
 
-.explore-right:hover{
-  background-color: #000000;
-  color: #ffffff;
-  transform: scale(1.1);
-  border: 1px solid white;
-}
+  .title-4{
+      position: relative;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-a:link{
-  text-decoration: none!important;
-  
+  .corousel{
+    width: 1000px;
+    margin: auto;
+    height: auto;
+    height: auto;
+  }
+
+  .img-container{
+    width: 1000px;
+    overflow: auto;
+    display: flex;
+    height: 300px;
+    gap: 20px;
+    overflow-x: auto;
+    border-radius: 10px;   
+    scroll-snap-type: x mandatory;
+  }
+
+  .img3{
+    scroll-snap-align: start;
+  }
+
+.black-background{
+    width: 100%;
+    height: auto;
 }
 
 .bar3{
@@ -242,13 +216,6 @@ a:link{
     background-color: rgb(255, 255, 255);
     margin: auto;
     margin-top: 150px;
-}
-
-
-.black-background{
-    background-color: black;
-    width: 100%;
-    height: auto;
 }
 
 .bottom-div-container{
@@ -302,59 +269,149 @@ height: auto;
   display: none;
 }
 
+a:link{
+  text-decoration: none!important;
+  
+}
 
 
 
 
 
 @media  (max-width: 1313px) {
-  .table-spotify{
-  width: 90%;
-  margin: auto;
-  margin-top: 100px;
+  .container-1{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
-.container-spotify{
-  width: 400px;
+.title-1{
+  position: relative;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    top: -580px;
+}
+
+.img-container-1{
+  width: 100%;
   height: 600px;
+  object-fit: cover;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+    filter: to bottom, blur(100%) 10%;
 }
 
-.spotify{
+.img{
+  position: relative;
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+  top: 175px;
+}
+
+.title-2{
+  position: relative;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    margin-top: -150px;
+}
+
+.details-1{
+    font-family: 'Roboto', sans-serif;
+    color: #8A8A8A;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+}
+
+.img-container-2{
+    width: 480px;
+    height: 500px;
+}
+
+.img-2{
+  width: 100%;
+  height: 100%;
+      object-fit: cover;
+
 }
 
 .spacer{
   width: 30px;
 }
 
-.container-text{
-  width: auto;
-}
-
-.title-spotify{
-    font-family: 'Atkinson Hyperlegible', sans-serif;
+.title-3{
+  position: relative;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #ffffff;
     font-weight: 700;
-    font-size: 40px;
-    margin-top: 0px;
-
+    font-size: 50px;
 }
 
-.details-spotify{
-      font-family: 'Roboto', sans-serif;
+.details-2{
+    font-family: 'Roboto', sans-serif;
     color: #8A8A8A;
     font-weight: 400;
     font-size: 15px;
-    margin-top: -10px;
     width: auto;
-
+    margin: auto;
 }
 
-.parent-mobile{
-  display: none;
-}
+.table-2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
 
+  .title-4{
+      position: relative;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    width: 90%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .corousel{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    height: auto;
+  }
+
+  .img-container{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    height: 300px;
+    gap: 20px;
+    overflow-x: auto;
+    border-radius: 10px;   
+    scroll-snap-type: x mandatory;
+  }
+
+  .img3{
+    scroll-snap-align: start;
+  }
 }
 
 
@@ -375,25 +432,24 @@ height: auto;
     display: block;
   }
 
-      .navbar{
+    .navbar{
     display: flex;
     justify-content: center;
   }
 
   .wfan-logo{
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     margin-top: 15px;
   }
 
-    .wfan-logo:hover{
-  transform: scale(1);
-}
+  .wfan-logo:hover{
+    transform: scale(1);
+  }
 
   .topnav {
   display: flex;
   width: 330px;
-  height: 30px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
@@ -428,133 +484,94 @@ height: auto;
   color: #000000;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  text-decoration: underline;
-}
-
-
-.img-container{
+.title-1{
+  position: relative;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 60px;
     width: 90%;
-  height: auto;
-  overflow: hidden;
-  border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    top: -560px;
 }
 
-.title{
-    margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 50px;
-  text-align: center;
+.title-2{
+  position: relative;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -340px;    
 }
 
-.details{
-      font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+.details-1{
+    font-family: 'Roboto', sans-serif;
     color: #8A8A8A;
-  width: 86%;
-  font-size: 20px;
-  text-align: center;
-  margin: auto;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
 }
-
 
 .img-container-2{
-    width: 90%;
-  height: 300px;
-  overflow: hidden;
-  border-radius: 10px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+  height: 300px;
+  border-radius: 10px;
 }
 
-.container-text{
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 150px;
+.title-3{
+  position: relative;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
 }
 
-.section-5{
-      width: 100%;
-    height: 100%;
-    margin-top: 100px;
-    padding-top: 0px;
-    margin-bottom: 30px;
+.details-2{
+    font-family: 'Roboto', sans-serif;
+    color: #8A8A8A;
+    font-weight: 400;
+    font-size: 12px;
+    width: auto;
+    margin: auto;
+    width: 90%;
 }
 
-.title-spotify{
-  text-align: center;
+.title-4{
+  margin-top: 130px;
 }
 
-.details-spotify{
-  text-align: center;
-}
+  .corousel{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    height: auto;
+  }
 
+  .img-container{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    height: 300px;
+    gap: 10px;
+    overflow-x: auto;
+    border-radius: 10px;   
+    scroll-snap-type: x mandatory;
+  }
 
-.explore-right{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  float: none;
-}
-
-.container-spotify{
-  width: 90%;
-  height: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .img3{
+    scroll-snap-align: start;
+    width: 290px;
+  }
 
 
 
