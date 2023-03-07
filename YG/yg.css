@@ -107,13 +107,7 @@ body{
   filter: brightness(30%);
 }
 
-.blur{
-  backdrop-filter: blur(6px);
-  height: 100px;
-  width: 100%;
-  background: rgba(19, 19, 19, 0.7);
-  margin-top: -100px;
-}
+
 
 .container-text{
   margin-top: 200px;
