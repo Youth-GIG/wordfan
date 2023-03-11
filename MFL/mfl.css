@@ -21,17 +21,17 @@ body{
   src: url(../fonts/SFPRODISPLAYBOLD.OTF);
 }
 
-.main-container{
-  width: auto;
-}
-
 .navbar{
-    height: 70px;
+    height: 50px;
     width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(18, 18, 18, 0.5);
+    backdrop-filter: blur(30px);
 }
 
 .wfan-logo{
-    margin-top: 15px;
+    margin-top: 5px;
     width: 40px;
     margin-left: 15px;
     transition: 0.40s;
@@ -82,15 +82,43 @@ body{
 .topnav a.active {
 }
 
+.block{
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section{
 }
 
 .img-container-1{
-  width: 1100px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  scroll-snap-align: start;
+    border-radius: 0px;
 }
 
 .img{
@@ -108,9 +136,9 @@ body{
 }
 
 .title{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'sf-pro-bold';
     color: #ffffff;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -133,6 +161,21 @@ body{
 .img-container-2{
   width: 550px;
   height: 500px;
+  overflow: hidden;
+    border-radius: 20px;
+
+}
+
+.img2{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.75s;
+  border-radius: 20px;
+}
+
+.img2:hover{
+  transform: scale(1.2);
 }
 
 .text-container-2{
@@ -143,9 +186,9 @@ body{
 }
 
 .title2{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'sf-pro-bold';
     color: #ffffff;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -189,6 +232,26 @@ a:link{
 .img-contain{
   width: 540px;
   height: auto;
+}
+
+.img-contain{
+  width: 540px;
+  height: auto;
+  overflow: hidden;
+    border-radius: 20px;
+
+}
+
+.img2{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.75s;
+  border-radius: 20px;
+}
+
+.img2:hover{
+  transform: scale(1.2);
 }
 
 .text-container3 {
@@ -292,13 +355,17 @@ height: auto;
 /*portrait mode*/
 @media  (max-width: 1313px) {
 
+  .block{
+    width: auto;
+    height: auto;
+  }
 
 .img-container-1{
-  width: 95%;
-  height: 600px;
+  width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .img{
@@ -316,9 +383,9 @@ height: auto;
 }
 
 .title{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'sf-pro-bold';
     color: #ffffff;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -353,9 +420,9 @@ height: auto;
 }
 
 .title2{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'sf-pro-bold';
     color: #ffffff;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -475,31 +542,6 @@ width: 80px;
 height: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .parent-mobile{
   display: none;
 }
@@ -531,13 +573,17 @@ height: auto;
     background-color: rgb(0, 0, 0);
 }
 
+.parent-desktop{
+  display: none;
+}
+
   .parent-mobile{
     display: block;
   }
 
-    .navbar{
+  
+  .navbar{
     display: flex;
-    justify-content: center;
   }
 
   .wfan-logo{
@@ -545,8 +591,14 @@ height: auto;
     margin-top: 15px;
   }
 
-    .wfan-logo:hover{
-  transform: scale(1);
+  .wfan-logo:hover{
+    transform: scale(1);
+  }
+
+  .navbar-mobile{
+    display: flex;
+    height: 70px;
+    width: 100%;
 }
 
   .topnav {
@@ -588,15 +640,52 @@ height: auto;
 }
 
 /* Add a color to the active/current link */
-.topnav-mobile a.active {
+.topnav a.active {
 }
 
+.block{
+  height: auto;
+  width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .img-container-1{
-  width: 95%;
+  width: 90%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .img{
@@ -614,9 +703,9 @@ height: auto;
 }
 
 .title{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'sf-pro-bold';
     color: #ffffff;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -652,9 +741,9 @@ height: auto;
 }
 
 .title2{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'sf-pro-bold';
     color: #ffffff;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -696,8 +785,8 @@ a:link{
 }
 
 .img-contain{
-  width: 95%;
-  height: auto;
+  width: 100%;
+  height: 350px;
   margin-left: auto;
   margin-right: auto;
 }
