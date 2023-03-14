@@ -632,6 +632,12 @@ height: auto;
 
 
 @media only screen and (max-width:750px) {
+  html{
+  scroll-behavior: smooth;
+     -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
   .parent-desktop{
     display: none;
   }
