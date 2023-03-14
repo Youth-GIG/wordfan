@@ -22,7 +22,9 @@ body{
 }
 
 .navbar{
-    height: 50px;
+  position: fixed;
+  z-index: 2;
+    height: 55px;
     width: 100%;
     background-color: rgba(18, 18, 18, 0.5);
     backdrop-filter: blur(30px);
@@ -92,7 +94,7 @@ body{
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  height: 90vh;
+  height: 100vh;
 }
 
 .img-container-2{
@@ -751,14 +753,12 @@ height: auto;
     display: block;
   }
 
-  
-  .navbar{
-    display: flex;
-  }
-
   .wfan-logo{
-    margin: auto;
-    margin-top: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    align-items: center;
   }
 
   .wfan-logo:hover{
@@ -766,10 +766,14 @@ height: auto;
   }
 
   .navbar-mobile{
-    display: flex;
-    height: 70px;
+    position: absolute;
+    z-index: 2;
+    position: fixed;
+    height: 100px;
     width: 100%;
-}
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(30px);
+  }
 
   .topnav {
   display: flex;
@@ -781,7 +785,6 @@ height: auto;
   justify-content: center;
   transition: 0.40s;
   z-index: 1;
-  background-color: #000000;
   border-radius: 10px;
 }
 
@@ -837,7 +840,7 @@ height: auto;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  height: auto;
+  height: 500px;
 }
 
 .img-container-2{

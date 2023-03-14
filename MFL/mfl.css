@@ -22,10 +22,10 @@ body{
 }
 
 .navbar{
-    height: 50px;
+  position: fixed;
+  z-index: 2;
+    height: 55px;
     width: 100%;
-    position: absolute;
-    z-index: 1;
     background-color: rgba(18, 18, 18, 0.5);
     backdrop-filter: blur(30px);
 }
@@ -78,6 +78,7 @@ body{
   color: #000000;
 }
 
+
 /* Add a color to the active/current link */
 .topnav a.active {
 }
@@ -111,6 +112,10 @@ body{
 
 
 .section{
+}
+
+.space{
+  height: 55px;
 }
 
 .img-container-1{
@@ -582,13 +587,12 @@ height: auto;
   }
 
   
-  .navbar{
+   .wfan-logo{
     display: flex;
-  }
-
-  .wfan-logo{
-    margin: auto;
-    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    align-items: center;
   }
 
   .wfan-logo:hover{
@@ -596,10 +600,14 @@ height: auto;
   }
 
   .navbar-mobile{
-    display: flex;
-    height: 70px;
+    position: absolute;
+    z-index: 2;
+    position: fixed;
+    height: 100px;
     width: 100%;
-}
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(30px);
+  }
 
   .topnav {
   display: flex;
@@ -611,7 +619,6 @@ height: auto;
   justify-content: center;
   transition: 0.40s;
   z-index: 1;
-  background-color: #000000;
   border-radius: 10px;
 }
 
@@ -639,9 +646,15 @@ height: auto;
   color: #000000;
 }
 
+
 /* Add a color to the active/current link */
 .topnav a.active {
 }
+
+.space{
+  height: 100px;
+}
+
 
 .block{
   height: auto;
