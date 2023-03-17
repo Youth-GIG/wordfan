@@ -107,7 +107,7 @@ body{
 
 .title{
   font-family: "sf-pro-bold";
-  font-size: 60px;
+  font-size: 40px;
   color: #ffffff;
 }
 
@@ -148,7 +148,7 @@ body{
 .button{
   color: #000000;
   text-align: center;
-  padding: 10px 1.5%;
+  padding: 10px 1%;
   margin-right: auto;
   margin-left: auto;
 
@@ -721,9 +721,6 @@ height: auto;
   margin-right: auto;
   margin-top: 30px;
 }
-
-
-
 
 
 

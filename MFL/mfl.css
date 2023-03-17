@@ -971,6 +971,7 @@ height: auto;
   margin-right: auto;
   text-align: left;
   margin-top: -20px;
+  text-align: center;
 }
 
 .flex{
@@ -980,7 +981,7 @@ height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  gap: 10px;
+  gap: 20px;
 }
 
 .box{
@@ -1027,10 +1028,10 @@ height: auto;
 .text-container3{
   width: 90%;
   height: 300px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
 .img-container2{
@@ -1052,12 +1053,12 @@ height: auto;
   position: absolute;
   z-index: 0;
   margin-left: 0px;
-  margin-top: 40px;
+  margin-top: 50px;
   background-color: rgba(18, 18, 18, 1);
   backdrop-filter: blur(30px);  
   width: 100%;
   height: 350px;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 .text-container4{
