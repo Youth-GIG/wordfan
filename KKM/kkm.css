@@ -161,7 +161,7 @@ body{
 .flex{
   display: flex;
   width: 80%;
-  height: 700px;
+  height: 500px;
   gap: 30px;
    margin-left: auto;
   margin-right: auto;
@@ -173,7 +173,7 @@ body{
   z-index: 1;
   text-align: center;
   width: 100%;
-  margin-top: 250px;
+  margin-top: 150px;
 }
 
 .img-container3{
@@ -409,7 +409,7 @@ height: auto;
 .flex{
   display: flex;
   width: 90%;
-  height: 700px;
+  height: 450px;
   gap: 30px;
    margin-left: auto;
   margin-right: auto; 
@@ -439,14 +439,13 @@ height: auto;
   margin-right: auto;
 }
 
-.container-5{
-  display: grid;
+.container{
+  display: flex;
   width: 90%;
-  height: 900px;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  background-color: #7e7e88;
   gap: 20px;
 }
 
