@@ -141,7 +141,7 @@ body{
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 500px;
+  margin-top: 570px;
   text-align: center;
 }
 
@@ -352,7 +352,7 @@ height: auto;
 
 .title{
   font-family: "sf-pro-bold";
-  font-size: 60px;
+  font-size: 50px;
   color: #ffffff;
 }
 
@@ -372,8 +372,8 @@ height: auto;
 .img-container-1{
   border-radius: 30px;
   overflow: hidden;
-  width: 90%;
-  height: 750px;
+  width: 95%;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 120px;
@@ -386,7 +386,7 @@ height: auto;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 500px;
+  margin-top: 200px;
   text-align: center;
 }
 
@@ -420,8 +420,8 @@ height: auto;
 .img-container-2{
   border-radius: 30px;
   overflow: hidden;
-  width: 90%;
-  height: 750px;
+  width: 95%;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
