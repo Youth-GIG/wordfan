@@ -942,15 +942,15 @@ div.scrollmenu-mobile video{
 .container-scroll{
   display: flex;
   overflow-x: auto;
-  gap: 20px;
+  gap: 10px;
   scroll-snap-type: x mandatory;
-    border-radius: 10px;
+    border-radius: 15px;
 
 }
 
 .box{
   width: 300px;
-  height: 400px;
+  height: 250px;
   object-fit: cover;
   scroll-snap-align: start;
   border-radius: 10px;
