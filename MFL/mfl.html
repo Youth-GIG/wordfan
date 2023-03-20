@@ -21,6 +21,8 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
     <!--------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
     <script defer src="../app.js"></script>
@@ -274,17 +276,26 @@
 
 
     <div class="parent-mobile">
-        <div class="navbar-mobile">
-            <img class="wfan-logo" src="../wfanlogo/wfan-logo-no-name.png">
+    <!-- Top Navigation Menu -->
+    <div class="topnav-mobile">
+        <a href="#home" class="active">
+            <img class="wfan-logo-mobile" src="../wfanlogo/wfan-logo-no-name.png">
+        </a>
 
-            <div class="topnav">
-                <a class="active" href="../index.html">Home</a>
-                <a href="../about/about.html">About</a>
-                <a href="../ministries/ministries.html">Ministries</a>
-                <a href="../og/og.html">Online Giving</a>
-                <a href="#contact-mobile">Contact us</a>
-            </div>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a style="font-family: sf-pro;" class="active" href="../index.html">Home</a>
+            <a style="font-family: sf-pro;" href="../about/about.html">About</a>
+            <a style="font-family: sf-pro;" href="../ministries/ministries.html">Ministries</a>
+            <a style="font-family: sf-pro;" href="../og/og.html">Online Giving</a>
+            <a style="font-family: sf-pro;" href="#contact-mobile">Contact us</a>
         </div>
+        
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
         <div class="space"></div>
 
@@ -428,7 +439,7 @@
             <div class="bar3"></div>
 
                 <div class="bottom-div-container">
-                    <div id="bottom-div" class="bottom-div">
+                    <div id="contact-mobile" class="bottom-div">
 
                         <div class="bottom-div-content">
                             <p class="bottom-div-title">Ministries:</p>

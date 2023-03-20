@@ -858,71 +858,59 @@ height: auto;
     display: block;
   }
 
-  .wfan-logo{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    align-items: center;
-  }
-
-  .wfan-logo:hover{
-    transform: scale(1);
-  }
-
-  .navbar-mobile{
-    position: absolute;
-    z-index: 2;
-    position: fixed;
-    height: 100px;
+/* Style the navigation menu */
+.topnav-mobile {
     width: 100%;
+  position: fixed;
+  z-index: 2;
+  overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(30px);
-  }
-
-  .topnav {
-  display: flex;
-  width: 330px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  justify-content: center;
-  transition: 0.40s;
-  z-index: 1;
-  border-radius: 10px;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 8px 2%;
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav-mobile #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav-mobile a {
+  color: white;
+  padding: 10px 16px;
   text-decoration: none;
-  font-size: 12px;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-   -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav-mobile a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav-mobile a:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.40s;
+
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
+}
+
+.wfan-logo-mobile{
+    margin-top: 5px;
+    width: 40px;
+    margin-left: 0px;
     transition: 0.40s;
-    border-radius: 5px;
-
-
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: rgb(255, 255, 255);
-  color: #000000;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
 }
 
 .space{
-  height: 100px;
+  height: 60px;
 }
 
 .img{
