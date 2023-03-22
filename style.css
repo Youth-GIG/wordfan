@@ -410,6 +410,10 @@ height: auto;
   transition-delay:800ms ;
 }
 
+.logo:nth-child(5) {
+  transition-delay:1000ms ;
+}
+
 
 
 
@@ -772,7 +776,7 @@ height: auto;
 .wfan-logo-mobile{
     margin-top: 5px;
     width: 40px;
-    margin-left: 0px;
+    margin-left: auto;
     transition: 0.40s;
 }
 
