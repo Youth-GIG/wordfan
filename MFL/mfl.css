@@ -923,7 +923,7 @@ font-family: 'Times New Roman';
   background-color: #8A8A8A;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -30px;
+  margin-top: 0px;
 }
 
 .img-container3{
@@ -946,7 +946,7 @@ font-family: 'Times New Roman';
 
 .box4{
   width: 100%;
-  height: 550px;
+  height: 400px;
   background-color: transparent;
 }
 
