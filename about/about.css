@@ -181,7 +181,15 @@ body{
 }
 
 .logo:nth-child(4) {
+  transition-delay: 1000ms ;
+}
+
+.logo:nth-child(5) {
   transition-delay: 1200ms ;
+}
+
+.logo:nth-child(6) {
+  transition-delay: 1400ms ;
 }
 
 
@@ -591,6 +599,7 @@ height: auto;
   height: 100%;
   object-fit: cover;
   transition: 0.40s;
+  border-radius: 20px;
 }
 
 .video{
@@ -602,14 +611,15 @@ height: auto;
 
 .title{
   font-family: "sf-pro-bold";
-  font-size: 30px;
+  font-size: 50px;
   color: #ffffff;
 }
 
 .details{
   font-family: "sf-pro-bold";
   font-size: 15px;
-  color: #a1a1a6;
+  color: #656565;
+  margin-top: -30px;
 }
 
 .spacer{
@@ -618,6 +628,31 @@ height: auto;
   background-color: aqua;
 }
 
+.img-container-1{
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.text-container{
+  position: relative;
+  z-index: 0;
+  width: 80%;
+  margin-top: -40px;
+  margin-left: 30px;
+}
+
+.img-container-2{
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 100px;
+}
 
 
 

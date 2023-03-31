@@ -199,7 +199,6 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  background-color: #151517;
   padding: 20px;
   gap: 20px;
 }
@@ -213,7 +212,7 @@ body{
 
 .title2{
   font-family: "sf-pro-bold";
-  font-size: 60px;
+  font-size: 40px;
   color: #ffffff;
 }
 
@@ -227,6 +226,7 @@ body{
 .maps{
   width: 100%;
   height: 100%;
+  border-radius: 15px;
 }
 
 
@@ -331,6 +331,32 @@ height: auto;
   transform: translateX(0%);
 }
 
+.logo:nth-child(1) {
+  transition-delay:200ms ;
+}
+
+.logo:nth-child(2) {
+  transition-delay:400ms ;
+}
+
+.logo:nth-child(3) {
+  transition-delay:600ms ;
+}
+
+.logo:nth-child(4) {
+  transition-delay:800ms ;
+}
+
+.logo:nth-child(5) {
+  transition-delay:1000ms ;
+}
+.logo:nth-child(6) {
+  transition-delay:1200ms ;
+}
+
+.logo:nth-child(7) {
+  transition-delay:1400ms ;
+}
 
 
 
