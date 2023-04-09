@@ -99,7 +99,7 @@ body{
   height: 100%;
   object-fit: cover;
   transition: 0.40s;
-  border-radius: 20px;
+  border-radius: 16px;
 }
 
 .img-container-1{
@@ -118,6 +118,12 @@ body{
 }
 
 .title{
+  font-family: "sf-pro-bold";
+  font-size: 70px;
+  color: #ffffff;
+}
+
+.title-2{
   font-family: "sf-pro-bold";
   font-size: 70px;
   color: #ffffff;
@@ -248,7 +254,7 @@ body{
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 20px;
+  border-radius: 16px;
 }
 
 .text-container-4{
@@ -533,31 +539,32 @@ height: auto;
 
 
 .logo:nth-child(1) {
-  transition-delay:200ms ;
+  transition-delay: 100ms ;
 }
 
 .logo:nth-child(2) {
-  transition-delay:400ms ;
+  transition-delay:200ms ;
 }
 
 .logo:nth-child(3) {
-  transition-delay:600ms ;
+  transition-delay:300ms ;
 }
 
 .logo:nth-child(4) {
-  transition-delay:800ms ;
+  transition-delay:400ms ;
 }
 
 .logo:nth-child(5) {
-  transition-delay:1000ms ;
+  transition-delay: 500ms ;
 }
 .logo:nth-child(6) {
-  transition-delay:800ms ;
+  transition-delay: 600ms ;
 }
 
 .logo:nth-child(7) {
-  transition-delay:1000ms ;
+  transition-delay: 700ms ;
 }
+
 
 
 
@@ -608,6 +615,12 @@ height: auto;
 .title{
   font-family: "sf-pro-bold";
   font-size: 70px;
+  color: #ffffff;
+}
+
+.title-2{
+  font-family: "sf-pro-bold";
+  font-size: 50px;
   color: #ffffff;
 }
 
@@ -736,7 +749,7 @@ height: auto;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 20px;
+  border-radius: 16px;
 }
 
 .text-container-4{
@@ -1028,7 +1041,7 @@ height: auto;
   height: 100%;
   object-fit: cover;
   transition: 0.40s;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .img-container-1{
@@ -1171,13 +1184,15 @@ height: auto;
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
 }
 
 .video{
-  width: 100%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 0px;
+  border-radius: 16px;
+  
 }
 
 .text-container-4{

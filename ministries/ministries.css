@@ -125,7 +125,7 @@ body{
 }
 
 .img-container-1{
-  border-radius: 20px;
+  border-radius: 16px;
   overflow: hidden;
   width: 90%;
   height: 750px;
@@ -181,7 +181,7 @@ body{
 }
 
 .img-container-2{
-  border-radius: 20px;
+  border-radius: 16px;
   overflow: hidden;
   width: 90%;
   height: 750px;
@@ -384,7 +384,7 @@ height: auto;
 }
 
 .img-container-1{
-  border-radius: 20px;
+  border-radius: 16px;
   overflow: hidden;
   width: 95%;
   height: 550px;
@@ -432,7 +432,7 @@ height: auto;
 }
 
 .img-container-2{
-  border-radius: 20px;
+  border-radius: 16px;
   overflow: hidden;
   width: 95%;
   height: 550px;
