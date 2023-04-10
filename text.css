@@ -1,0 +1,100 @@
+
+html{
+  scroll-behavior: smooth;
+     -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  overflow-x: hidden;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+@font-face {
+  font-family: "sf-pro";
+  src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face {
+  font-family: "sf-pro-bold";
+  src: url(fonts/SFPRODISPLAYBOLD.OTF);
+}
+
+.main-container{
+  background-color: aliceblue;
+  width: auto;
+}
+
+.navbar{
+  position: fixed;
+  z-index: 2;
+    height: 48px;
+    max-height: 44px;
+    width: 100%;
+    background-color: rgba(18, 18, 18, 0.5);
+    backdrop-filter: blur(30px);
+}
+
+.wfan-logo{
+    margin-top: 7px;
+    width: 30px;
+    margin-left: 15px;
+    transition: 0.40s;
+}
+
+.wfan-logo:hover{
+  transform: scale(1.2);
+}
+
+.topnav {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+  justify-content: center;
+  transition: 0.40s;
+  z-index: 1;
+  gap: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+    transition: 0.40s;
+      border-radius: 30px;
+
+
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+}
+
+.title-bar{
+    width: auto;
+    padding: 1px 20px;
+    height: 30px;
+    border-radius: 4px;
+    transition: 0.30s;
+    margin-top: -5px;
+}
+
+.title-bar:hover{
+    background-color: #48484a;
+    transform: scale(1.1);
+}
+
+.text{
+    margin-top: 7px;
+}
