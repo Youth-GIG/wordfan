@@ -33,7 +33,7 @@ body{
     height: 48px;
     max-height: 44px;
     width: 100%;
-    background-color: rgba(18, 18, 18, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(30px);
 }
 
@@ -91,8 +91,9 @@ body{
 }
 
 .title-bar:hover{
-    background-color: #161616;
+    background-color: #ffffff;
     transform: scale(1.1);
+    color: #000000;
 }
 
 .text{
@@ -100,7 +101,7 @@ body{
 }
 
 .space{
-  height: 55px;
+  height: 45px;
 }
 
 .img{
@@ -148,7 +149,7 @@ body{
   height: 750px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 0px;
   transition: 0.40s;
 }
 
@@ -257,7 +258,7 @@ a:link{
 .bar3{
     width: 90%;
     height: 1px;
-    background-color: rgb(255, 255, 255);
+    background-color: #48484a;
     margin: auto;
     margin-top: 150px;
 }
@@ -496,7 +497,7 @@ a:link{
 .bar3{
     width: 90%;
     height: 1px;
-    background-color: rgb(255, 255, 255);
+    background-color: #48484a;
     margin: auto;
     margin-top: 150px;
 }
@@ -850,7 +851,7 @@ a:link{
 .bar3{
     width: 90%;
     height: 1px;
-    background-color: rgb(255, 255, 255);
+    background-color: #48484a;
     margin: auto;
     margin-top: 150px;
 }

@@ -91,8 +91,9 @@ body{
 }
 
 .title-bar:hover{
-    background-color: #161616;
+    background-color: #ffffff;
     transform: scale(1.1);
+    color: #000000;
 }
 
 .text{
@@ -276,7 +277,7 @@ a:link{
 .bar3{
     width: 90%;
     height: 1px;
-    background-color: rgb(255, 255, 255);
+    background-color: #48484a;
     margin: auto;
     margin-top: 150px;
 }
@@ -588,7 +589,7 @@ a:link{
 .bar3{
     width: 90%;
     height: 1px;
-    background-color: rgb(255, 255, 255);
+    background-color: #48484a;
     margin: auto;
     margin-top: 150px;
 }
@@ -945,7 +946,7 @@ a:link{
 .bar3{
     width: 90%;
     height: 1px;
-    background-color: rgb(255, 255, 255);
+    background-color: #48484a;
     margin: auto;
     margin-top: 150px;
 }
