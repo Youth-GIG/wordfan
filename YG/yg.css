@@ -1039,6 +1039,15 @@ height: auto;
 
 
 @media only screen and (max-width:750px) {
+  /* Set both colors */
+  ::-webkit-scrollbar {
+    display: none;
+  
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    display: none;
+  }
   
   body{
     margin: 0 auto;

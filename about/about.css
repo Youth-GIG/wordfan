@@ -238,6 +238,7 @@ body{
   color: #ffffff;
   margin-top: 10px;
   margin-left: 5px;
+  width: 90%;
 }
 
 .row-2{
@@ -819,6 +820,7 @@ height: auto;
   margin-right: auto;
   border-radius: 10px;
   margin-top: 100px;
+  background-color: #2c2c2e;
 }
 
 .text-container-2{
@@ -827,10 +829,11 @@ height: auto;
 
 .profile-container{
   display: grid;
+  height: auto;
 }
 
 .profile{
-  height: 280px;
+  height: 100%;
 }
 
 
