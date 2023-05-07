@@ -1,4 +1,19 @@
+/* Set both colors */
+::-webkit-scrollbar {
+  background-color: #2c2c2e;
+  width: 14px;
+  height: 14px;
+}
 
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  width: 10px;
+  margin-left: 20px;
+  border: 3px #2c2c2e solid;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+  background-color: #636366;
+  padding: 200px;
+}
 html{
   scroll-behavior: smooth;
      -webkit-user-select: none; /* Safari */
@@ -642,7 +657,15 @@ height: auto;
 
 
 @media only screen and (max-width:750px) {
-  
+    /* Set both colors */
+::-webkit-scrollbar {
+  display: none;
+
+}
+
+::-webkit-scrollbar-thumb {
+  display: none;
+}
   body{
     margin: 0 auto;
     background-color: rgb(0, 0, 0);
@@ -897,79 +920,15 @@ a:link{
     margin-top: 150px;
 }
 
-.bottom-div-container{
-  text-decoration: none;
-  width: 90%;
-  margin: auto;
-    display: flex;
-  justify-content: center;
-    margin-bottom: 40px;
-
-}
-
 .bottom-div{
   margin-left: auto;
   margin-right: auto;
   width: auto;
   gap: 40px;
   display: flex;
-    margin-top: 50px;
-
+  margin-top: 50px;
+  width: 90%;
 }
-
-.bottom-div-content{
-  width: auto;
-}
-
-.bottom-div-title{
-      font-family: 'Atkinson Hyperlegible', sans-serif;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 18px;
-}
-
-.bottom-div-link{
-  font-family: 'Roboto', sans-serif;
-  color: #8A8A8A;
-  font-weight: 400;
-  transition: 0.20s;
-}
-
-.bottom-div-link:hover{
-  color: #ffffff;
-  text-decoration: underline white 1px;
-}
-
-.td1-spacer{
-width: 80px;
-height: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -977,21 +936,24 @@ height: auto;
   width: auto;
   margin: auto;
     margin-bottom: 40px;
+    margin-top: -40px;
+}
 
+.td1-spacer{
+width: 80px;
+height: 40px;
 }
 
 .bottom-div-title{
-      font-family: 'Atkinson Hyperlegible', sans-serif;
+      font-family: 'sf-pro';
     color: #ffffff;
     font-weight: 700;
-    text-align: center;
     font-size: 18px;
 }
 
 .bottom-div-link{
   font-family: 'Roboto', sans-serif;
   color: #8A8A8A;
-      text-align: center;
 
   font-weight: 400;
   transition: 0.20s;
@@ -999,7 +961,6 @@ height: auto;
 
 .bottom-div-link:hover{
   color: #ffffff;
-  text-decoration: underline white 1px;
 }
 
 .bottom-div{
