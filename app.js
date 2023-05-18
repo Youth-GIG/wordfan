@@ -30,6 +30,24 @@ function myFunction() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //slider - home
 let slideIndex = 1;
 showSlides(slideIndex);
