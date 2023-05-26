@@ -80,3 +80,35 @@ function showSlides(n) {
 
 
 //copy and paste - about
+
+
+
+
+
+
+
+
+
+
+
+
+document.querySelector(".menu").addEventListener("click", toggleMenu);
+//document.getElementsByClassName("dropdown")[0].addEventListener("click", toggleMenu);
+
+    let menuLink = document.querySelector(".menu a");
+    let dropDown = document.querySelector('ul.dropdown');
+    let header = document.querySelector("header");
+    let isOpen = 0;
+
+    function toggleMenu() {
+        if(isOpen == 0) {
+            menuLink.classList.toggle("active");
+            header.classList.add("black");
+            isOpen++;
+        }
+        else {
+            menuLink.classList.toggle("active");
+            header.classList.remove("black");
+            isOpen--;
+        }
+    }
