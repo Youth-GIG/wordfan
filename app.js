@@ -3,7 +3,8 @@ const observer = new IntersectionObserver((entries) =>{
         console.log(entry)
         if(entry.isIntersecting) {
             entry.target.classList.add('show')
-        }
+        }else{ entry.target.classList.remove('show');}
+
     });
 });
 
@@ -79,7 +80,6 @@ function showSlides(n) {
 }
 
 
-//copy and paste - about
 
 
 
@@ -93,7 +93,7 @@ function showSlides(n) {
 
 
 document.querySelector(".menu").addEventListener("click", toggleMenu);
-//document.getElementsByClassName("dropdown")[0].addEventListener("click", toggleMenu);
+document.getElementsByClassName("dropdown")[0].addEventListener("click", toggleMenu);
 
     let menuLink = document.querySelector(".menu a");
     let dropDown = document.querySelector('ul.dropdown');

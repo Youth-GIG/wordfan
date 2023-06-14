@@ -233,6 +233,12 @@ button:active{
   transform: scale(.9);
 }
 
+button:hover{
+    transition: 0.16s;
+  transform: scale(.9);
+}
+
+
 .copy-btn {
   cursor: pointer;
 }
@@ -252,6 +258,11 @@ button:active{
   transition: 0.16s;
   transform: scale(.9);
   display: flex;
+}
+
+.web-teleporter:hover{
+    transition: 0.16s;
+  transform: scale(.9);
 }
 
 .material-symbols-rounded {
