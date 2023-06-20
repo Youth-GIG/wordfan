@@ -51,7 +51,7 @@ body{
 .navbar{
   position: fixed;
   z-index: 2;
-    height: 48px;
+    height: 44px;
     max-height: 50px;
     width: 100%;
     background-color: rgba(18, 18, 18, 0.5);
@@ -113,7 +113,7 @@ body{
 }
 
 .title-bar:hover{
-    background-color: rgba(22, 22, 22, 0.5);
+    background-color: rgba(40, 40, 42, 0.5);
     transform: scale(1.1);
 }
 
@@ -145,7 +145,7 @@ body{
 /* Hide the images by default */
 .mySlides {
   display: none;
-  height: 94vh;
+  height: 90vh;
 }
 
 .img-head {
@@ -1302,7 +1302,7 @@ height: auto;
 
 .box-mobile{
   width: 100vw;
-  height: 90vh;
+  height: 85vh;
   background-color: #191919;
   border-radius: 0px;
   overflow: hidden;
@@ -1342,7 +1342,7 @@ height: auto;
 .img-container04{
   width: 100%;
   height: auto;
-  margin-top: -350px;
+  margin-top: -240px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
@@ -1368,6 +1368,9 @@ height: auto;
   justify-content: center;
 }
 
+.title{
+  font-size: 30px;
+}
 
 
 
@@ -1430,7 +1433,7 @@ height: auto;
 }
 
 .box1{
-  width: 300px;
+  width: 270px;
   height: 230px;
   background-color: #191919;
   border-radius: 10px;
