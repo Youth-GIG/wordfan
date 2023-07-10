@@ -22,7 +22,7 @@ html{
 
 body{
     margin: 0 auto;
-    background-color: #000000;
+    background-color: #252525;
 }
 
 @font-face {
@@ -835,7 +835,7 @@ height: auto;
 }
   body{
     margin: 0 auto;
-    background-color: rgb(0, 0, 0);
+    background-color: #252525;
 }
 
 .parent-desktop{
