@@ -845,7 +845,6 @@ height: auto;
 .button:hover{
   background-color: rgba(0, 122, 255, 1);
   color: white;
-  transform: scale(1.1);
 }
 
 .material-symbols-rounded {
