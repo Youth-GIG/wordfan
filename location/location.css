@@ -731,6 +731,20 @@ height: auto;
     transition: 0.40s;
 }
 
+.nav-button{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+.nav-button:hover{
+  background-color: rgb(28, 28, 30);
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .space{
   height: 60px;
 }
