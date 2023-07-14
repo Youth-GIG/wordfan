@@ -283,6 +283,12 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
   color: #ffffff;
 }
 
+.details-2{
+  margin-top: -20px;
+  font-family: "sf-pro-bold";
+  color: #b3b3b3;
+}
+
 .text-container-1{
   width: 90%;
   margin-left: auto;
@@ -865,6 +871,12 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
   color: #ffffff;
 }
 
+.details-2{
+  margin-top: -20px;
+  font-family: "sf-pro-bold";
+  color: #b3b3b3;
+}
+
 .text-container-1{
   width: 95%;
   margin-left: auto;
@@ -1343,7 +1355,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 }
 
 .img-container-3{
-  width: 90%;
+  width: 95%;
   height: 80vh;
   margin-right: auto;
   margin-left: auto;
@@ -1426,7 +1438,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 
 
 .text-container-1{
-  width: 90%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
   height: auto;
@@ -1436,7 +1448,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 
 .container-1{
   display: flex;
-  width: 90%;
+  width: 95%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -1477,7 +1489,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
     margin-left: 210px;
     position: absolute;
     transition: 0.2s;
-    border: rgba(0, 0, 0, 0.3) solid 2px;
+    border: rgba(28, 28, 30, 0.3) solid 2px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 
 }
@@ -1562,7 +1574,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
   height: 190px;
   margin: auto;
   position: relative;
-  width: 90%;
+  width: 95%;
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -1579,7 +1591,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
   height: 190px;
   margin: auto;
   position: relative;
-  width: 90%;
+  width: 95%;
   display: grid;
   place-items: center;
   overflow: hidden;
