@@ -153,7 +153,7 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover;
-  border-radius: 0px 0px 15px 15px;
+  border-radius: 0px 0px 20px 20px;
 
 }
 
@@ -233,15 +233,15 @@ body{
 .text-container2{
   position: absolute;
   z-index: 1;
-  margin-top: 430px;
+  margin-top: 0px;
   margin-left: 15px;
 }
 
 
 .img-container03{
-  width: 500px;
-  height: 300px;
-  margin-top: -700px;
+  width: 300px;
+  height: 200px;
+  margin-top: -250px;
   margin-left: 70px;
   z-index: 1;
 }
@@ -261,7 +261,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 }
 
 .button:hover{
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgb(172, 172, 172);
     backdrop-filter: blur(10px);
 
 }
@@ -320,7 +320,6 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 
 .box1:hover{
   filter: brightness(0.8);
-  transform: scale(1.03);
 }
 
 
@@ -333,6 +332,57 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 
 }
+
+.flex-3{
+  width: auto;
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  margin-top: -55px;
+  margin-right: 10px;
+  right: 0px;
+}
+
+.button-3{
+  background-color: rgba(28, 28, 30, 0.7);
+    backdrop-filter: blur(6px);
+  font-family: "sf-pro";
+  color: rgb(0, 0, 0);
+  text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    margin-top: 0px;
+    margin-right: 0px;
+    right: 0px;
+    position: absolute;
+    transition: 0.2s;
+    border: rgba(28, 28, 30, 0.3) solid 1px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
+
+}
+
+
+.button-3:hover{
+  background-color: rgba(0, 122, 255, 1);
+  color: white;
+  transform: scale(1.1);
+}
+
+.material-symbols-rounded {
+    font-size: 38px !important;
+    margin-top: 1px;
+  color: white;
+
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+}
+
 
 .text-container{
   display: flex;
@@ -457,7 +507,7 @@ a:link{
   place-items: center;
   overflow: hidden;
   margin-top: -15px;
-  border-radius: 20px;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .slide-track {
@@ -497,8 +547,7 @@ a:link{
   display: grid;
   place-items: center;
   overflow: hidden;
-  border-radius: 20px;
-
+  border-radius: 0px 0px 20px 20px;
 }
 
 .slide-track-2 {
@@ -1459,6 +1508,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
   overflow-x: scroll;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
+
 }
 
 .box1{
@@ -1470,6 +1520,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
   transition: 0.40s;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
   scroll-snap-align: center;
+    border: rgba(28, 28, 30, 0.3) solid 1px;
 }
 
 .flex-3{
@@ -1485,14 +1536,14 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
   font-family: "sf-pro";
   color: rgb(0, 0, 0);
   text-align: center;
-    width: 46px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 100px;
-    margin-top: -101px;
+    margin-top: -100px;
     margin-left: 210px;
     position: absolute;
     transition: 0.2s;
-    border: rgba(28, 28, 30, 0.3) solid 2px;
+    border: rgba(28, 28, 30, 0.3) solid 1px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 
 }
@@ -1505,7 +1556,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 
 .material-symbols-rounded {
     font-size: 38px !important;
-    margin-top: 3px;
+    margin-top: 1px;
   color: white;
 
   font-variation-settings:

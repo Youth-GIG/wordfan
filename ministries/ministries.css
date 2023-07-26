@@ -803,6 +803,8 @@ height: auto;
   margin-top: 50px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
   border-radius: 20px;
+    border: rgba(0, 0, 0, 0.3) solid 1px;
+
 }
 
 .flex-2{
@@ -823,6 +825,7 @@ height: auto;
   margin-left: 0;
   text-align: center;
   z-index: 1;
+
 }
 
 .button{
@@ -831,14 +834,14 @@ height: auto;
   font-family: "sf-pro";
   color: rgb(0, 0, 0);
   text-align: center;
-    width: 46px;
-    height: 30px;
+    width: 40px;
+    height: 25px;
     border-radius: 100px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-top: 15px;
+    margin-left: 15px;
     position: absolute;
     transition: 0.2s;
-    border: rgba(0, 0, 0, 0.3) solid 2px;
+    border: rgba(0, 0, 0, 0.3) solid 1px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 }
 
@@ -850,7 +853,7 @@ height: auto;
 
 .material-symbols-rounded {
     font-size: 38px !important;
-    margin-top: -3px;
+    margin-top: -6px;
   color: white;
 
   font-variation-settings:
@@ -859,7 +862,6 @@ height: auto;
   'GRAD' 200,
   'opsz' 48
 }
-
 
 
 
