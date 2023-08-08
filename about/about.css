@@ -874,7 +874,7 @@ height: auto;
     margin-top: -20px;
 }
 
-.flex-1{
+.flex-1-mobile{
   width: 90%;
   height: auto;
   display: grid;
@@ -899,7 +899,7 @@ height: auto;
   padding-left: 20px;
 }
 
-.flex-2{
+.flex-2-mobile{
   width: 90%;
   height: auto;
   display: grid;
