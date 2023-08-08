@@ -1012,7 +1012,7 @@ height: auto;
 }
 
 .img2{
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 
@@ -1130,7 +1130,7 @@ height: auto;
 .group-div{
   width: 100%;
   height: 350px;
-  border-radius: 12px;
+  border-radius: 20px;
   position: relative;
 }
 
@@ -1142,7 +1142,7 @@ height: auto;
   width: 60px;
   height: 60px;
   background-color: #000000;
-  border-radius: 12px;
+  border-radius: 20px;
   transition: 0.20s;
 }
 
