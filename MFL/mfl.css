@@ -239,8 +239,8 @@ font-family: 'Times New Roman';
 }
 
 .img-container2{
-  width: 90%;
-  height: 90vh;
+  width: 70%;
+  height: 80vh;
   margin-left: auto;
   margin-right: auto;
   margin-top: 200px;
@@ -248,8 +248,8 @@ font-family: 'Times New Roman';
 
 .img-container3{
   display: flex;
-  width: 90%;
-  height: 850px;
+  width: 70%;
+  height: 80vh;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
