@@ -142,6 +142,28 @@ body{
   height: 45px;
 }
 
+.flex-box01{
+  width: 75%;
+  height: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 30px;
+  justify-content: center;
+}
+
+.flex-box02{
+  width: 75%;
+  height: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  gap: 30px;
+  justify-content: center;
+}
+
+
 .img{
   width: 100%;
   height: 100%;
@@ -172,7 +194,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 
 .details{
   font-family: "sf-pro-bold";
-  font-size: 12px;
+  font-size: 15px;
   color: #b3b3b3;
 }
 
@@ -193,7 +215,6 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
   overflow: hidden;
   width: 90%;
   height: 750px;
-  background-color: aqua;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
@@ -218,28 +239,42 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 }
 
 .button{
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(28, 28, 30, 0.7);
     backdrop-filter: blur(6px);
   font-family: "sf-pro";
   color: rgb(0, 0, 0);
   text-align: center;
-    padding: 9px 1%;
-    width: 100px;
-    border-radius: 13px;
-    margin-top: -40px;
-    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    margin-top: -30px;
+    margin-right: 15px;
+    right: 0px;
     position: absolute;
     transition: 0.2s;
-    border: rgba(0, 0, 0, 0.3) solid 1px;
+    border: rgba(28, 28, 30, 0.3) solid 2px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 
 }
 
 .button:hover{
-  background-color: rgba(28, 28, 30, 0.7);
+  background-color: rgba(0, 122, 255, 1);
   color: white;
   transform: scale(1.1);
 }
+
+.material-symbols-rounded {
+  font-size: 38px !important;
+  margin-top: 1px;
+color: white;
+
+font-variation-settings:
+'FILL' 0,
+'wght' 700,
+'GRAD' 200,
+'opsz' 48
+}
+
 .img-container-2{
   border-radius: 8px;
   overflow: hidden;
@@ -256,8 +291,8 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 }
 
 .img-container-3{
-  width: 70%;
-  height: 700px;
+  width: 500px;
+  height: 300px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 50px;
@@ -277,8 +312,8 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
   position: absolute;
   width: 500px;
   height: auto;
-  margin-top: -240px;
-  margin-left: 30px;
+  margin-top: 0px;
+  margin-left: 0px;
   z-index: 1;
 }
 
