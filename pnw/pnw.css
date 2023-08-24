@@ -38,17 +38,17 @@ body{
 
 @font-face {
   font-family: "sf-pro";
-  src: url(../../../fonts/SFPRODISPLAYREGULAR.OTF);
+  src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
 }
 
 @font-face {
   font-family: "sf-pro-bold";
-  src: url(../../../fonts/SFPRODISPLAYBOLD.OTF);
+  src: url(../fonts/SFPRODISPLAYBOLD.OTF);
 }
 
 @font-face {
   font-family: "sf-pro-bold-italic";
-  src: url(../../../fonts/SFPRODISPLAYBLACKITALIC.OTF);
+  src: url(../fonts/SFPRODISPLAYBLACKITALIC.OTF);
 }
 
 .main-container{
